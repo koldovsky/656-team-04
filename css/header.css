@@ -21,6 +21,33 @@
     margin-right: 5px;
     text-decoration: none;
 }
-.header-nav__menu-item:hover {
-    color:var(--main-subheading-btn-color);
+
+@media (min-width: 600px) {
+    .header_nav > .container {
+        display: flex;
+        height: 95px;
+    }
+    .header_nav-menu {
+        flex-direction: row;
+        justify-content: space-around;
+        flex: 1;
+    }
+    .header_top-logo {
+        display: flex;
+        align-items: center;
+        min-width: 400px;
+    }
+    .header-logo {
+    width:162px;
+    }
+    .header-nav__menu-item {
+        font-size: 17px;
+        color:#191c18;
+        text-decoration: none;
+    }
+
+    .header-nav__menu-item:hover {
+        color:var(--main-subheading-btn-color);
+    }
+    
 }
