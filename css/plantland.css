@@ -3,16 +3,17 @@
     background-size:cover;
     background-position:center;
     min-height: 917px;
-    display: flex;
+    /*display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center;*/
 }
 
 .plantland {
     display: grid;
     gap: 30px;
     grid-template-columns: 1fr 1fr;
+    padding-top: 10%;
 }  
 
 .title {
