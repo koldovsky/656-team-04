@@ -11,9 +11,15 @@
     --main-heading-color: #0d3c00;
     --main-subheading-btn-color: #79a207;
     --main-text-color:#707070;
+    --about-us-pricing-color:#faf5f2;
 }
 
 img {
     display: block;
     width: 100%;
+}
+
+.container {
+    max-width: 980px;
+    margin: auto;
 }
