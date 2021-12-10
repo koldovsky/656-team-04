@@ -66,8 +66,7 @@
             <div class="plant_show container">
                 <article class="plant_card">
                     <div class="card_icon">
-                        <img class="icon" src="./img/header-about-us-picture/garden_icon.svg"
-                            alt="Plants for Garden">
+                        <img class="icon" src="./img/header-about-us-picture/garden_icon.svg" alt="Plants for Garden">
                     </div>
                     <h3 class="plant_card_title">Plants for Garden</h3>
                     <p class="plant_card_text">Turn your yard into a colorful lawn! Here you will find dozens of
@@ -342,45 +341,56 @@
         </section>
         <!-- End of Pricing section-->
     </main>
-    <!--Kateryna Padafa-->
+    <!--Kateryna Padafa start-->
     <footer>
         <div class="contacts-section">
-            <p class="subheader">―PLANT STORE―</p>
-            <h2>Contacts</h2>
-            <h3 class="address">Address</h3>
-            <p>84-4 127th St, Kew Gardens, NY 11415, USA</p>
-            <h3 class="hours">Hours</h3>
-            <p>Monday - Saturday: 11 AM - 9 PM Sunday: 11 AM - 7 PM</p>
-            <h3 class="contacts">Contacts</h3>
-            <p> <span>+1 (234) 567 89 00 plantland@email.com</span></p>
+            <p class="contacts-section__subheader">―PLANT STORE―</p>
+            <h2 class="contacts-section__h2">Contacts</h2>
+            <div class="contacts-section__address">
+                <h3 class="contacts-section__address-h3">Address</h3>
+                <p class="contacts-section__address-p">84-4 127th St, Kew Gardens,</p>
+                <p class="contacts-section__address-p"> NY 11415, USA</p>
+            </div>
+            <div class="contacts-section__hours">
+                <h3 class="contacts-section__hours-h3">Hours</h3>
+                <p class="contacts-section__hours-p">Monday - Saturday: 11 AM - 9 PM </p>
+                <p class="contacts-section__hours-p">Sunday: 11 AM - 7 PM</p>
+            </div>
+            <div class ="contacts-section__contacts">
+                <h3 class="contacts-section__contacts-h3">Contacts</h3>
+                <p class="contacts-section__contacts-p">+1 (234) 567 89 00 </p>
+                <p class="contacts-section__contacts-p">plantland@email.com</p>
+            </div>
+            <!--Google maps-->
         </div>
-        <!--Google maps-->
-        <div>
-            <form>
+
+        <div class="form-container">
+            <form class="customer-form">
                 <h2>Send a Request</h2>
-                <p class="message-to-contact-us">
+                <p class="customer-form__text-to-customer">
                     If you want to buy a plant, visit our offline store or the greenhouse, leave us a message.
                 </p>
-                <input name="user-name" type="text" placeholder="Enter your full name*" required>
-                <input name="user-phone-number" type="text" placeholder="Enter your phone number*" required>
-                <input name="user-email" type="email" placeholder="Enter your e-mail*" required>
-                <input name="user-message" type="text" placeholder="Leave your message">
+                <input name="customer-form__name" type="text" placeholder="Enter your full name*" required>
+                <input name="customer-form__phone-number" type="text" placeholder="Enter your phone number*" required>
+                <input name="customer-form__email" type="email" placeholder="Enter your e-mail*" required>
+                <input name="customer-form__message" type="text" placeholder="Leave your message">
                 <button>Submit</button>
             </form>
         </div>
-        <div class="header-dub-in-footer">
-            <img src="img/logo.svg" alt="footer logo" class="footer-logo-img">
-            <p class="footer-logo"><a href="#">PlantLand</a></p>
-            <nav class="footer-nav">
-                <a href="#">About us</a>
-                <a href="#">Plants</a>
-                <a href="#">Pick of the Month</a>
-                <a href="#">Pricing</a>
-                <a href="#">Testmonials</a>
-                <a href="#">Contact us</a>
+        <div class="footer-nav">
+            <img src="img/logo.svg" alt="footer logo" class="footer-nav__logo-img">
+            <p class="footer-nav__logo"><a href="#">PlantLand</a></p>
+            <nav class="footer-nav__menu">
+                <a href="#" class="header-nav__menu-item">About Us</a>
+                <a href="#" class="footer-nav__menu-item">Plants</a>
+                <a href="#" class="footer-nav__menu-item">Pick of the Month</a>
+                <a href="#" class="footer-nav__menu-item">Pricing</a>
+                <a href="#" class="footer-nav__menu-item">Testimonials</a>
+                <a href="#" class=footer-nav__menu-item">Contact us</a>
             </nav>
         </div>
     </footer>
+    <!--Kateryna Padafa end-->
 </body>
 
 </html>

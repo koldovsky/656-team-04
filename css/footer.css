@@ -1,0 +1,21 @@
+.contacts-section{
+    background-color: #fff;
+}
+.contacts-section__subheader{
+    font-weight: bold;
+    color: #79a207;
+    font-size: 14px;
+}
+.contacts-section__h2{
+color: #191c18;
+font-size: 42px;
+}
+.contacts-section__address contacts-section__hours contacts-section__contacts{
+    font-size: 22px;
+    color: #191c18;
+    font-weight:900;
+}
+.contacts-section__contacts-p{
+    color: #79a207;
+    font-size:17px;
+}
