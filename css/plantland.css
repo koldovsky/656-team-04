@@ -1,0 +1,85 @@
+.plantland-wrapper {
+    background-image: url(../img/header-about-us-picture/about-us-picture.png);
+    background-size:cover;
+    background-position:center;
+    min-height: 917px;
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;*/
+}
+
+.plantland {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 30%;
+}  
+
+.title {
+    font-size: 14px;
+    color:var(--main-subheading-btn-color);
+}
+
+.header_heading {
+    font-size: 74px;
+    color:var(--main-heading-color);
+    font-family: "Lora", sans-serif;
+}
+
+.header_subheading {
+    font-size: 18px;
+    color:#191c18;
+}
+
+.btn-header-best-plants {
+    margin: 10px;
+    display: inline-block;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 18px 34px;
+    border-radius: 28px;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.7s;
+    background-color:var(--main-subheading-btn-color) ;
+}
+
+.btn-header-best-plants:hover {
+  background-color: var(--main-heading-color);
+}
+
+.btn-header-lean-more {
+    margin: 20px;
+    display: inline-block;
+    font-size: 12px;
+    color: #191c18;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 18px 34px;
+    border-radius: 28px;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.7s;
+    background-color:transparent;
+    border: 0.1em solid #191c18;
+}
+
+.btn-header-lean-more:hover {
+    color: #fff;
+    background-color: #191c18;
+}
+
+@media(min-width: 600px) {
+    .plantland {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 10%;
+    }  
+    
+}

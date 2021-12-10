@@ -1,0 +1,14 @@
+.about-us-wrapper {
+    background-color:#faf5f2;
+}
+.about-us {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 10%;
+}
+
+.title {
+    font-size: 14px;
+    color:var(--main-subheading-btn-color);
+}
