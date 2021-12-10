@@ -73,3 +73,13 @@
     color: #fff;
     background-color: #191c18;
 }
+
+@media(min-width: 600px) {
+    .plantland {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 30%;
+    }  
+    
+}
