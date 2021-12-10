@@ -18,3 +18,21 @@
     color: var(--main-subheading-btn-color);
     text-transform: uppercase;
 }
+@media (min-width: 600px){
+    .plants_show {
+        display: grid;
+        gap: 5px;
+        grid-template-columns: reapeat (2, 1fr);
+    }
+}
+@media (min-width: 900px){
+    .plants_show {
+        grid-template-columns: reapeat (3, 1fr);
+    }
+}
+@media (min-width: 980px){
+    .plants_show {
+        grid-template-columns: reapeat (4, 1fr);
+    }
+}
+   
