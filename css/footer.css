@@ -1,0 +1,39 @@
+@media(max-width: 766px){.contacts-and-form{
+    font-family: 'Source Sans Pro' sans-serif;
+    display:flex;
+    flex-direction: column;
+}
+
+.contacts-section{
+    height: 400px;
+    width: 300px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: space-around;
+}
+    
+.contacts-section__subheader{
+    font-weight: 900;
+    color:var(--main-subheading-btn-color);
+    font-size: 14px;
+}
+.contacts-section__h2{
+color: var(--main-heading-color);
+font-family: 'Lora', sans-serif;
+font-size: 42px;
+font-weight: 900;
+}
+.contacts-section__address-h3, .contacts-section__hours-h3, .contacts-section__contacts-h3 {
+ font-size: 24px;
+line-height: 1.4;
+font-family: 'Source Sans Pro',sans-serif;
+font-weight: 900;
+color: var(--main-heading-color);
+}
+.contacts-section__contacts-p{
+    color: var(--main-subheading-btn-color);
+    font-size:17px;
+}
+}

@@ -22,7 +22,7 @@
     text-decoration: none;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
     .header_nav > .container {
         display: flex;
         height: 95px;
