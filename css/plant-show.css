@@ -1,6 +1,26 @@
 .plant_show-wrapper {
     background-color:#faf5f2;
+    min-height: 917px;
+    display: flex;
 }
+
+.plant_show {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    
+.card_icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color:rgba(121, 162, 7, 0.23);
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}    
 
 .plant_show .plant_card {
     border: 1px solid black;
@@ -8,15 +28,53 @@
     background-color: #fff;
 }
 
+.plant_card_title {
+    font-size: 24px;
+    color:var(--main-heading-color);
+}
+
+.plant_card_text {
+    font-size: 17px;
+    color: var(--main-text-color);
+}
+
+.plant_card_btn {
+    margin: 20px;
+    display: inline-block;
+    font-size: 11px;
+    color: #191c18;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.plant_card_btn:hover {
+    text-decoration:underline;
+}
+
 @media (min-width: 700px) {
     .plant_show {
         display: grid;
-        gap: 5px;
-        grid-template-columns: repeat(6, 1fr);
+        grid-gap: 20px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-co:minmax(100px, 582px); 
     }  
 
+    .plant_show-wrapper {
+        min-height: 917px;
+    }
+    .card_icon {
+        width: 100px;
+        height: 100px;
+        text-align: center; 
+        border-radius: 50%;
+        background-color:rgba(121, 162, 7, 0.23);
+    }
+
 .icon {
+    margin: 25%;
     width: 60px;
     height: 60px;
 }    
+
 }

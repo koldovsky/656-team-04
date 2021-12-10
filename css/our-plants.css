@@ -1,0 +1,38 @@
+.ourplants_smallsubheading {
+    font-size: 14px;
+    color: var(--main-subheading-btn-color);
+    text-align: center;
+    text-transform: uppercase;
+}
+.ourplants_heading {
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+}
+.ourplants_subheading {
+    font-size: 18px;
+    text-align: center;
+}
+.plants_location {
+    font-size: 14px;
+    color: var(--main-subheading-btn-color);
+    text-transform: uppercase;
+}
+@media (min-width: 600px){
+    .plants_show {
+        display: grid;
+        gap: 5px;
+        grid-template-columns: reapeat (2, 1fr);
+    }
+}
+@media (min-width: 900px){
+    .plants_show {
+        grid-template-columns: reapeat (3, 1fr);
+    }
+}
+@media (min-width: 980px){
+    .plants_show {
+        grid-template-columns: reapeat (4, 1fr);
+    }
+}
+   
