@@ -1,0 +1,20 @@
+.ourplants_smallsubheading {
+    font-size: 14px;
+    color: var(--main-subheading-btn-color);
+    text-align: center;
+    text-transform: uppercase;
+}
+.ourplants_heading {
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+}
+.ourplants_subheading {
+    font-size: 18px;
+    text-align: center;
+}
+.plants_location {
+    font-size: 14px;
+    color: var(--main-subheading-btn-color);
+    text-transform: uppercase;
+}
