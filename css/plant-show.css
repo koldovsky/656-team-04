@@ -12,12 +12,8 @@
     .plant_show {
         display: grid;
         gap: 5px;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: repeat(6, 1fr);
     }  
-
-   .plant_card {
-    max-width: 583px;
-   } 
 
 .icon {
     width: 60px;
