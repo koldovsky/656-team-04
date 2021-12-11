@@ -16,6 +16,7 @@
 
 .title {
     font-size: 14px;
+    font-weight: bold;
     color:var(--main-subheading-btn-color);
 }
 
@@ -77,7 +78,8 @@
         background-image: url(../img/header-about-us-picture/about-us-picture.png);
         background-size:cover;
         background-position:center;
-        min-height: 917px;
+        background-position-x: 18%;
+        min-height:100vh;
     }
     .plantland {
         display: grid;
