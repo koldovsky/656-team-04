@@ -1,32 +1,38 @@
 .plantland-wrapper {
     background-image: url(../img/header-about-us-picture/about-us-picture.png);
     background-size:cover;
-    /*display: flex;
-    flex-direction: column;
+    height: 100vh;
+    display: flex;
     align-items: center;
-    justify-content: center;*/
+    justify-content: center;
 }
 
-.plantland {
-    display: grid;
-    gap: 30px;
-    grid-template-columns: 1fr;
-    padding-top: 30%;
-}  
+.plantland-container {
+    width: 100%;
+    margin-left: 30px;
+}
+
+.plantland-text {
+    padding: 15px;
+}
 
 .title {
     font-size: 14px;
+    font-weight: bold;
     color:var(--main-subheading-btn-color);
 }
 
-.header_heading {
-    font-size: 74px;
+.header-heading {
+    font-size: 48px;
+    font-weight: bold;
     color:var(--main-heading-color);
-    font-family: "Lora", sans-serif;
+    font-family: "Lora", serif;
+    margin-top: 15px;
 }
 
 .header_subheading {
     font-size: 18px;
+    font-weight: 400px;
     color:#191c18;
 }
 
@@ -72,20 +78,32 @@
     background-color: #191c18;
 }
 
-@media(min-width: 700px) {
+@media(min-width: 600px) {
     .plantland-wrapper {
         background-image: url(../img/header-about-us-picture/about-us-picture.png);
         background-size:cover;
         background-position:center;
-        min-height: 917px;
+        background-position-x: 18%;
+        min-height:100vh;
+        display: block;
+    } 
+
+    .plantland-container {
+        max-width: 980px;
+        margin: auto;
+        width: 100%;
+        padding-left: 30px;
+        padding-top: 195px;
     }
-    .plantland {
-        display: grid;
-        gap: 30px;
-        grid-template-columns: 1fr 1fr;
-        padding-top: 10%;
-        grid-auto-rows: minmax(100px, 367px);
-        grid-auto-columns: 570px;
-    }  
-    
+
+    .plantland-text {
+        width: 483px;
+    }
+
+    .header-heading {
+        font-size: 65px;
+        font-weight: bold;
+        color:var(--main-heading-color);
+        font-family: "Lora", serif;
+    }
 }

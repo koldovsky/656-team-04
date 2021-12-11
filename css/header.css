@@ -1,9 +1,15 @@
+.header {
+    height: 100vh;
+}
+
+
 .header_nav {
     background-color: #fff;
 }
 
 .header_top-logo {
     width: 162px;
+    margin:30px;
 }
 
 .header_nav-menu {
@@ -22,10 +28,14 @@
     text-decoration: none;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 600px) {
+    .header {
+        height: auto;
+    }
+    
     .header_nav > .container {
         display: flex;
-        height: 95px;
+        min-height: 95px;
     }
     .header_nav-menu {
         flex-direction: row;
@@ -35,10 +45,12 @@
     .header_top-logo {
         display: flex;
         align-items: center;
-        min-width: 400px;
+        min-width: 300px;
+        padding:0px;
     }
     .header-logo {
-    width:162px;
+        width:162px;
+        margin-left: 0px;
     }
     .header-nav__menu-item {
         font-size: 17px;
