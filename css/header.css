@@ -9,7 +9,7 @@
 
 .header_top-logo {
     width: 162px;
-    padding:30px;
+    margin:30px;
 }
 
 .header_nav-menu {
@@ -28,7 +28,7 @@
     text-decoration: none;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 600px) {
     .header {
         height: auto;
     }
@@ -45,11 +45,12 @@
     .header_top-logo {
         display: flex;
         align-items: center;
-        min-width: 400px;
+        min-width: 300px;
         padding:0px;
     }
     .header-logo {
         width:162px;
+        margin-left: 0px;
     }
     .header-nav__menu-item {
         font-size: 17px;
