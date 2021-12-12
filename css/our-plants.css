@@ -21,25 +21,34 @@
     text-transform: uppercase;
 }
 .plants_show {
-    margin: 15px;
+    margin: 25px;
 }
-@media (min-width: 600px){
+@media (min-width: 600px) {
     .plants_show {
         display: grid;
-        grid-column-gap: 20px;
+        grid-column-gap: 5px;
         grid-template-columns: repeat(2, 1fr);
     }
 }
-@media (min-width: 900px){
+@media (min-width: 900px) {
     .plants_show {
         grid-template-columns: repeat(3, 1fr);
     }
 }
-@media (min-width: 980px){
+@media (min-width: 980px) {
     .plants_show {
         grid-template-columns: repeat(4, 1fr);
     }
 }
 .plants_show_pictures {
     border-radius: 5px;
+    width:219px;
+    height: 298px;
+}
+.line_allscreen {
+    height: 0px;
+    background-color: grey;
+    opacity: 0.3;
+    width: 100%;
+    margin-top: 15px;
 }
