@@ -1,0 +1,23 @@
+.footer-nav {
+    background-color: var( --main-heading-color);
+    color: white;
+    min-height: 500px;
+}
+
+.footer-nav__logo-img {
+    color: white;
+}
+
+.footer-nav__menu {
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-nav__menu-item {
+    color: white;
+    text-decoration: none;
+}
