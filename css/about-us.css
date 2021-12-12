@@ -8,8 +8,36 @@
 
 .title {
     font-size: 14px;
+    font-weight: bold;
     color:var(--main-subheading-btn-color);
 }
+
+.subheader_title {
+    margin-top: 20px;
+    font-size: 34px;
+    font-weight: bold;
+    color:var(--main-heading-color);
+    font-family: "Lora", serif;
+}
+
+.subheader_text {
+    margin-top: 25px;
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--main-text-color);
+}
+
+.subheader_list {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.list_element {
+    list-style-type: disc;
+    font-size: 15px;
+    color:#191c18;
+}
+
 
 @media (min-width: 700px) {
     .about-us-wrapper-grid {
@@ -62,5 +90,12 @@
     .btn-about-us:hover {
       background-color: var(--main-heading-color);
     }
+
+    .list_element {
+        list-style-type: disc;
+        font-size: 15px;
+        color:#191c18;
+    }
+    
     
 }
