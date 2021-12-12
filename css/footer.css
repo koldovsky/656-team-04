@@ -19,12 +19,13 @@
      min-width: 150px;
      background-color: #fff;
      display: flex;
-     justify-content: center;
+     justify-content: space-around;
      flex-direction: column;
-     align-content: space-around;
+     align-content: center;
  }
  
  iframe {
+     margin-top: 30px;
      min-height: 350px;
      min-width: 95vw;
      border: 0;
@@ -147,5 +148,11 @@
      iframe {
          min-height: 350px;
          min-width: 45vw;
+     }
+     .customer-form__input {
+         min-width: 200px;
+     }
+     .customer-form__submit {
+         min-width: 200px;
      }
  }
