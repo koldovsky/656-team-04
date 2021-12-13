@@ -52,4 +52,20 @@
 }
 .plants_show_pictures {
     border-radius: 5px;
+    /* height: 100%;
+    width: 100%;
+    object-fit: cover; */
+}
+.plants_show_name {
+    font-size: 24px;
+    /* font-weight: bold;
+    line-height: 33.6px; */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.plants_show_description {
+    font-size: 17px;
+    line-height: 25.5px;
+    letter-spacing: 0.85px;
+    opacity: 0.7;
 }
