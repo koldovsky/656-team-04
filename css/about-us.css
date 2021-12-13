@@ -4,8 +4,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
+.about-us-text {
+    padding-top: 90px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .title {
     font-size: 14px;
     font-weight: bold;
@@ -36,20 +42,55 @@
     list-style-type: disc;
     font-size: 15px;
     color:#191c18;
+    margin-bottom: 16px;
 }
 
+.btn-about-us {
+    width: 92px;
+    height: 22px;
+    padding: 18px 34px;
+    display: inline-block;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 28px;
+    text-align: center;
+    transition: color 0.7s;
+    background-color:var(--main-subheading-btn-color) ;
+}
+
+.btn-about-us:hover {
+  background-color: var(--main-heading-color);
+}
+
+.subheader_picture {
+    margin-top: 50px;
+    margin-bottom: 65px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 @media (min-width: 700px) {
     .about-us-wrapper-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 30px;
-        min-height: 917px;
+        min-height: 517px;
     }  
     
     .about-us-text {
-        margin-top: 37%;
+        padding-top: 130px;
+        padding-bottom: 65px;
     }
+
+    .subheader_picture {
+        padding-top: 130px;
+        margin-bottom: 65px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
     .title {
         font-size: 14px;
         color:var(--main-subheading-btn-color);
