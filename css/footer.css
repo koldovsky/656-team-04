@@ -65,6 +65,7 @@
  }
  
  .customer-form {
+     margin-left: 20px;
      display: flex;
      flex-direction: column;
  }
