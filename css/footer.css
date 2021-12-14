@@ -24,10 +24,14 @@
      align-content: center;
  }
  
- .address-hours-contacts {
-     display: flex;
-     flex-direction: column;
-     padding-left: 20%;
+ .contacts-section__address,
+ .contacts-section__contacts,
+ .contacts-section__hours {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     padding-left: 5%;
+     padding-top: 5%;
+     padding-right: 20%;
  }
  
  iframe {
@@ -46,6 +50,8 @@
      font-weight: 900;
      color: var(--main-subheading-btn-color);
      font-size: 14px;
+     margin-top: 5%;
+     margin-bottom: 5%;
  }
  
  .contacts-section__h2 {
