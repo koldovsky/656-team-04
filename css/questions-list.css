@@ -15,10 +15,9 @@
     text-transform: uppercase;
     margin-bottom: 15px;
 }
-/* .questions_heading { */
-    h2 {
+.questions_heading {
     font-size: 42px;
-    font-weight: bold;
+    font-weight: bolt;
     font-family: 'Lora', sans-serif;
     color:var(--main-heading-color);
     margin-bottom: 25px;
