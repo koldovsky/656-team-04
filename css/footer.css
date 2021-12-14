@@ -12,6 +12,7 @@
      font-family: 'Source Sans Pro' sans-serif;
      display: flex;
      flex-direction: column;
+     width: 575px;
  }
  
  .contacts-section {
