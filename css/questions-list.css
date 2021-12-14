@@ -17,7 +17,7 @@
 }
 .questions_heading {
     font-size: 42px;
-    font-weight: bolt;
+    font-weight: bold;
     font-family: 'Lora', sans-serif;
     color:var(--main-heading-color);
     margin-bottom: 25px;
