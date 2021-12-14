@@ -24,6 +24,12 @@
      align-content: center;
  }
  
+ .address-hours-contacts {
+     display: flex;
+     flex-direction: column;
+     padding-left: 20%;
+ }
+ 
  iframe {
      margin-top: 30px;
      min-height: 350px;
