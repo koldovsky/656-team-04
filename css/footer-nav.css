@@ -2,10 +2,13 @@
     background-color: var( --main-heading-color);
     color: white;
     min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-nav__logo-img {
-    color: white;
+    width: 162px;
 }
 
 .footer-nav__menu {
