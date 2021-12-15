@@ -34,10 +34,8 @@
 @media (min-width: 770px) {
     .footer-nav {
         min-height: 230px;
-        /* padding: 30px 80px 0px 80px; */
         display: flex;
         flex-direction: row;
-        margin-left: -30px;
         justify-content: space-between;
     }
     .footer-nav__menu {
