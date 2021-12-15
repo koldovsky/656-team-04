@@ -24,7 +24,7 @@
     color: var(--main-subheading-btn-color);
     text-transform: uppercase;
 }
-.line_allscreen {
+.line_nav_allscreen {
     height: 0px;
     background-color: grey;
     opacity: 0.3;
@@ -32,7 +32,7 @@
     margin-top: 15px;
 }
 .plants_show {
-    margin: 30px;
+    margin: 30px 20px 30px 20px;
 }
 @media (min-width: 600px) {
     .plants_show {
