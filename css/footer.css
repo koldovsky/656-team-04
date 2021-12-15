@@ -12,17 +12,16 @@
      font-family: 'Source Sans Pro' sans-serif;
      display: flex;
      flex-direction: column;
-     width: 575px;
  }
  
  .contacts-section {
      min-height: 600px;
-     min-width: 150px;
      background-color: #fff;
      display: flex;
      justify-content: space-around;
      flex-direction: column;
      align-content: center;
+     max-width: 575px
  }
  
  .contacts-section__address,
