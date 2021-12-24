@@ -38,23 +38,24 @@
         }
           
     ];
-        
-function renderSlides(slides) {
-        const slidesContainer = document.querySelector('.plant_show');
-            for (const slide of slides) {
-                slidesContainer.innerHTML +=
-                `<article class="plant_card">
-                    <div class="icon-wrapper">
-                        <img class="plant-icon" src="${slide.image}" alt="Plant icon">
-                    </div>
-                    <h3 class="plant_card_title">${slide.name}</h3>
-                    <p lass="plant_card_text">${slide.text}</p>
-                    <div class="plant-btn">
-                        <a href=" #" class="plant_card_btn">LEARN MORE</a>
-                    </div>
-                </article>`;
-            }
+
+    function showCurrentSlide() {
+        const slideContainer = document.querySelector('.plant_show');
+        for (const slide of slides) {
+            slideContainer.innerHTML +=
+            `<article class="plant_card">
+                <div class="icon-wrapper">
+                    <img class="plant-icon" src="${slide.image}" alt="Plant icon">
+                </div>
+                <h3 class="plant_card_title">${slide.name}</h3>
+                <p lass="plant_card_text">${slide.text}</p>
+                <div class="plant-btn">
+                    <a href=" #" class="plant_card_btn">LEARN MORE</a>
+                </div>
+            </article>`;
         }
 
-    renderSlides(slides);
+    }
+        showCurrentSlide();
+
 })();
