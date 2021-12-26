@@ -67,7 +67,7 @@
   }
 
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
 
     .container {
         height: auto;
@@ -121,7 +121,7 @@
         align-items: center;
     }
 
-    .header-nav__menu-item:hover {
+    .page-nav__link:hover {
         color:var(--main-subheading-btn-color);
     }
     

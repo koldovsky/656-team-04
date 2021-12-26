@@ -76,6 +76,22 @@
     height: 120px;
 }
 
+
+.carousel-button {
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: none;
+    padding-top: 4px;
+    }
+
+.fas {    
+    height: 29px;
+    width: 23px;
+    color:#191c18;
+}
+
 @media (min-width: 700px) {
     .plant_show-wrapper {
         padding:0px;
