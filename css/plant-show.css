@@ -2,7 +2,6 @@
     background-color:#faf5f2;
     padding-left: 24px;
     padding-right: 24px;
-    display: flex;
 }
 
 .plant_show {
@@ -66,26 +65,37 @@
     text-decoration:underline;
 }
 
+.plant-carousel_back,
+.plant-carousel_forward {
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: none;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 3px;
+}
+
+.back,
+.forward{    
+height: 29px;
+width: 23px;
+font-size: x-large;
+color:#191c18;
+}
 
 
 @media (min-width: 700px) {
-    .plant_show {
-        display: grid;
-        grid-gap: 20px;
-        grid-template-columns: repeat(3, 1fr);
-        grid-auto-columns:minmax(100px, 582px); 
-    }  
-
     .plant_show-wrapper {
         min-height: 917px;
         padding:0px;
     }
     
     .plant_card {
-        padding-left: 40px;
-        padding-top: 31px;
-        padding-bottom: 31px;
-        padding-right: 40px;
+        width: 302px;
+        height: 400px;
     }
 
     .icon-wrapper {
