@@ -4,11 +4,16 @@
     padding-right: 24px;
 }
 
-.plant_show {
-    flex-direction: column;
+.plant-carousel {
+    display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.plant-carousel_list {
+    display: flex;
+}
+
 
 .plant_card {
     padding-left: 35px;
@@ -32,7 +37,7 @@
     height: 40px;
 }    
 
-.plant_show .plant_card {
+.plant-carousel .plant_card {
     border-top: 3px solid #79a207;
     border-radius: 5px;
     background-color: #fff;
@@ -65,39 +70,39 @@
     text-decoration:underline;
 }
 
-.plant-carousel_back,
-.plant-carousel_forward {
-    width: 24px;
-    height: 24px;
-    background-color: #fff;
-    border-radius: 50%;
-    border: none;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin: 3px;
+.plant-list-bottom {
+    background-image: url(../img/header-about-us-picture/plant-list-bottom.png);
+    background-size:cover;
 }
-
-.back,
-.forward{    
-height: 29px;
-width: 23px;
-font-size: x-large;
-color:#191c18;
-}
-
 
 @media (min-width: 700px) {
     .plant_show-wrapper {
-        min-height: 917px;
         padding:0px;
     }
+ 
+    .plant-carousel {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
     
-    .plant_card {
-        width: 302px;
-        height: 400px;
+    .plant-carousel_list{
+        display: flex;
     }
 
+    .plant_card {
+        width: 350px;
+        height: 315px;
+        margin-left: 30px;
+    }
+
+    .carousel-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        width: 130px;
+    }
     .icon-wrapper {
         display: block;
         width: 100px;

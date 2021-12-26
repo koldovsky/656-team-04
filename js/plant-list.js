@@ -66,7 +66,7 @@
     let currentSlide = 0;
 
     function showCurrentSlide(){
-        const slideContainer = document.querySelector('.plant-carousel');
+        const slideContainer = document.querySelector('.plant-carousel_list');
         slideContainer.innerHTML = slides[currentSlide];
         if(window.innerWidth > 600){ 
            const secondSlide = currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
@@ -92,8 +92,8 @@
     //setInterval (nextSlide, 1000);
     showCurrentSlide();
 
-    document.querySelector('.plant-carousel_forward').addEventListener('click', nextSlide);
-    document.querySelector('.plant-carousel_back').addEventListener('click', prevSlide);
+    document.querySelector('.plant_showforward').addEventListener('click', nextSlide);
+    document.querySelector('.plant_showback').addEventListener('click', prevSlide);
     window.addEventListener('resize', showCurrentSlide);
 
 })();
