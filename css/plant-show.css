@@ -73,6 +73,7 @@
 .plant-list-bottom {
     background-image: url(../img/header-about-us-picture/plant-list-bottom.png);
     background-size:cover;
+    height: 120px;
 }
 
 @media (min-width: 700px) {
