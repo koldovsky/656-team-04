@@ -30,6 +30,9 @@
     letter-spacing: 2.8px;
     color: var(--main-subheading-btn-color);
 }
+.indoor_btm, .outdoor_btm:hover {
+    color: var(--main-heading-color);
+}
 .indoor_btm {
     margin: 0px 40px 20px 0px;
 }
