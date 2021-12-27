@@ -1,161 +1,179 @@
 #pricing {
-    display: block;
-    padding-top: 90px;
-    padding-bottom: 90px;
-    position: relative;
-      min-width: 320px;
-    font-size: 17px;
-      line-height: 1.5;
-      font-family: Source Sans Pro,sans-serif;
-      font-weight: 400;
-      word-wrap: break-word;
-    vertical-align: baseline;
-    color: #191c18;
-
-  }
-  
-  .pricing-wrapper{
-   width: 100%;
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 24px;
-    font: inherit;
-      vertical-align: baseline;
-    box-sizing: border-box;
-        color: #191c18;
-        background-color: #faf5f2;
-  }
-  .pricing-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    flex-basis: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-       }
-  .pricing-title {
-        font-weight: bold;
-    color: hsl(76, 92%, 33%);
-    letter-spacing: .2em;
-    font-size: 14px;
-    font-weight: bold;
-        text-align: center;
-  }
-  .pricing-heading {
-    font-size: 42px;
-    font-weight: bold;
-    color: #0d3c00;
-    text-align: center;
-
-  }
-  .pricing-subheading {
-    font-size: 18px;
-    color: #191c18;
-    text-align: center;
-  }
-  .plants-cost_content {
-    margin-top: 45px;
-    color: #191c18;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: calc(100% + 30px);
-      margin-left: -15px;
-      margin-right: -15px;
-    flex-wrap: wrap;
-  }
-  .plants-cost_show {
-    padding-left: 15px;
-      padding-right: 15px;
-    display: flex;
-    text-align: center;
-    color: #191c18;
-  }
-  
-  .plants-cost_show_card {
-        display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-      max-width: 100%;
-    box-shadow: 0 6px 12px 0 rgb(62 65 75 / 10%);
-      border-radius: 5px;
-      border: 0;
-      position: relative;
-    padding-top: 33px;
-      padding-bottom: 33px;
-      padding-left: 27px;
-      padding-right: 27px;
-    justify-content: flex-start;
-    color: #191c18;
-    background-color: #fff;
-  }
-  .plants-cost_show: :after {
-    
-    
-  }
-  .plants-cost_name {
-        color: #191c18;
-        font-size: 22px;
-    font-weight: 900;
-    
-  }
-  .plants-cost_title {
-    color: #0d3c00;
-    line-height: 1.8;
-     margin-top: 20px;
-    font-size: 26px;
-        font-weight: 900;
-      line-height: 1.33
-  }
-  .plants-cost_list {
-        margin-top: 25px;
-     
-  }
-  .plants-cost_list_element {
-    font-size: 17px;
-      line-height: 1.5;
-      letter-spacing: .05em;
-    position: relative;
-      max-width: 100%;
-    color: #707070;
-   }
-  .btn-pricing-custom-order {
-    width: auto;
-      max-width: 100%;
-    font-size: 11px;
-      line-height: 1.8em;
-      letter-spacing: .01em;
-    padding: 12px 24px;
-      border-radius: 21px;
-    font-weight: 700;
-      color: #fff;
-    box-shadow: 0 0 0 0 transparent;
-      background-color: #79a207;
-          cursor: pointer;
-    margin: 10px;
-    margin-top: 35px;
-    transition: background-color 0.7s;
-     transition-duration: 0.7s;
-  } 
-  .btn-pricing-custom-order:hover {
-    background-color: #191c18;
-  }
-  @media (min-width: 600px) {
-    .plants-cost_show  {
-        display: grid;
-        grid-column-gap: 30px;
-        grid-template-columns: repeat 1, 1fr);
-    }
+  display: block;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  position: relative;
+  min-width: 320px;
+  font-size: 17px;
+  line-height: 1.5;
+  font-family: Source Sans Pro,sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  color: #191c18;
 }
-@media (min-width: 768px) {
+.plants-pricing-carousel{
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content:center;
+  }
+
+.plants-pricing.carousel_button_forward {
+  width: 80px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 25%;
+  border: none;
+  padding-top: 4px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.plants-pricing.carousel_button_back{
+  width: 80px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 25%;
+  border: none;
+  padding-top: 4px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.pricing-wrapper{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  color: #191c18;
+  background-color: #faf5f2;
+}
+.pricing-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-basis: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.pricing-title {
+  font-weight: bold;
+  color: hsl(76, 92%, 33%);
+  letter-spacing: .2em;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+.pricing-heading {
+  font-size: 42px;
+  font-weight: bold;
+  color: #0d3c00;
+  text-align: center;
+}
+.pricing-subheading {
+  font-size: 18px;
+  color: #191c18;
+  text-align: center;
+}
+.plants-cost_content {
+  margin-top: 45px;
+  color: #191c18;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: calc(100% + 30px);
+  margin-left: -15px;
+  margin-right: -15px;
+  flex-wrap: wrap;
+}
+.plants-cost_show {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  text-align: center;
+  color: #191c18;
+}
+ 
+.plants-cost_show_card {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  max-width: 100%;
+  box-shadow: 0 6px 12px 0 rgb(62 65 75 / 10%);
+  border-radius: 5px;
+  border-top: 2px solid hsl(76, 92%, 33%); 
+  position: relative;
+  padding-top: 33px;
+  padding-bottom: 33px;
+  padding-left: 27px;
+  padding-right: 27px;
+  justify-content: flex-start;
+  color: #191c18;
+  background-color: #fff;
+}
+.plants-cost_name {
+  color: #191c18;
+  font-size: 22px;
+  font-weight: 900;
+}
+.plants-cost_title {
+  color: #0d3c00;
+  line-height: 1.8;
+  margin-top: 20px;
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 1.33
+}
+.plants-cost_list {
+  margin-top: 25px;  
+}
+.plants-cost_list_element {
+  font-size: 17px;
+  line-height: 1.5;
+  letter-spacing: .05em;
+  position: relative;
+  max-width: 100%;
+  color: #707070;
+}
+.btn-pricing-custom-order {
+  width: auto;
+  max-width: 100%;
+  font-size: 11px;
+  line-height: 1.8em;
+  letter-spacing: .01em;
+  padding: 12px 24px;
+  border-radius: 21px;
+  font-weight: 700;
+  color: #fff;
+  box-shadow: 0 0 0 0 transparent;
+  background-color: #79a207;
+  cursor: pointer;
+  margin: 10px;
+  margin-top: 35px;
+  transition: background-color 0.7s;
+  transition-duration: 0.7s;
+} 
+.btn-pricing-custom-order:hover {
+  background-color: #191c18;
+}
+@media (min-width: 0px) {
   .plants-cost_show  {
-      grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-column-gap: 30px;
+    grid-template-columns: repeat (1, 1fr);
+   }
   }
-@media (min-width: 900px) {
-    .plants-cost_show  {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-@media (min-width: 980px) {
-    .plants-cost_show  {
-        grid-template-columns: repeat(4, 1fr);
+ @media (min-width: 600px) {
+  .plants-cost_show  {
+    grid-template-columns: repeat(2, 1fr);
+   }
+ }
+ 
+ @media (min-width: 900px) {
+   .plants-cost_show  {
+    grid-template-columns: repeat(4, 1fr);
+   }
+ }

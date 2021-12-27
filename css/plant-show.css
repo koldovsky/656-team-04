@@ -5,17 +5,23 @@
     display: flex;
 }
 
-.plant_show {
-    flex-direction: column;
+.plant-carousel {
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.plant-carousel_list {
+    display: flex;
+}
+
+
 .plant_card {
-    padding-left: 35px;
-    padding-top: 29px;
-    padding-bottom: 29px;
-    padding-right: 35px;
+    display: flex;
+    flex-direction: column;
+   max-width: 380px;
+    max-height: 375px;
+    padding: 26px;
 }
 
 .icon-wrapper {
@@ -33,7 +39,7 @@
     height: 40px;
 }    
 
-.plant_show .plant_card {
+.plant-carousel .plant_card {
     border-top: 3px solid #79a207;
     border-radius: 5px;
     background-color: #fff;
@@ -66,28 +72,37 @@
     text-decoration:underline;
 }
 
+.plant-list-bottom {
+    background-image: url(../img/header-about-us-picture/plant-list-bottom.png);
+    background-size:cover;
+    height: 120px;
+}
 
+
+.carousel-button {
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: none;
+    padding-top: 4px;
+    }
+
+.fas {    
+    height: 29px;
+    width: 23px;
+    color:#191c18;
+}
 
 @media (min-width: 700px) {
-    .plant_show {
-        display: grid;
-        grid-gap: 20px;
-        grid-template-columns: repeat(3, 1fr);
-        grid-auto-columns:minmax(100px, 582px); 
-    }  
-
-    .plant_show-wrapper {
-        min-height: 917px;
-        padding:0px;
+  
+    .plant-carousel_list{
+        display: flex;
     }
-    
+
     .plant_card {
-        padding-left: 40px;
-        padding-top: 31px;
-        padding-bottom: 31px;
-        padding-right: 40px;
+        margin-left: 30px;
     }
-
     .icon-wrapper {
         display: block;
         width: 100px;
