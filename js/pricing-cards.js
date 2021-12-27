@@ -1,10 +1,10 @@
 (function() {
-    const slides = [
-        <article class="plants-cost_show_card">
-            <p class="plants-cost_name">from $20</p>
-            <h3 class="plants-cost_title">Small plants</h3>
-            <p class="plants-cost_list">
-              <li class="plants-cost_list_element">Money Plant</li>
+  const slides = [
+    <article class="plants-cost_show_card">
+     <p class="plants-cost_name">from $20</p>
+     <h3 class="plants-cost_title">Small plants</h3>
+     <p class="plants-cost_list">
+     <li class="plants-cost_list_element">Money Plant</li>
               <li class="plants-cost_list_element">Bryophyllum</li>
               <li class="plants-cost_list_element">Philodendron</li>
             </p>
