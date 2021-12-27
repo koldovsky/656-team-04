@@ -1,6 +1,6 @@
 (function() {
   const slides = [
-    <article class="plants-cost_show_card">
+      <article class="plants-cost_show_card">
       <p class="plants-cost_name">from $20</p>
       <h3 class="plants-cost_title">Small plants</h3>
       <p class="plants-cost_list">
