@@ -69,7 +69,7 @@
 
   showCurrentSlide();
 
-  document.querySelector('.plants-pricing.carousel-button-forward').addEventListener('click', nextSlide);
-  document.querySelector('.plants-pricing.carousel-button-back').addEventListener('click', prevSlide);
+  document.querySelector('.plants-pricing.carousel_button_forward').addEventListener('click', nextSlide);
+  document.querySelector('.plants-pricing.carousel_button_back').addEventListener('click', prevSlide);
   window.addEventListener('resize', showCurrentSlide);
 })();
