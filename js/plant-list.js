@@ -79,32 +79,19 @@
 
     }
 
-    
-   function nextSlide(){
-    currentSlide = currentSlide +1 >= slides.length ? 0 : currentSlide + 1;
-    showCurrentSlide();
-    }
-
-    function prevSlide(){
-    currentSlide = currentSlide - 1 <= 0? slides.length - 1 : currentSlide - 1;
-    showCurrentSlide();
-    }
-
-
-   /* function nextSlide() {
+   function nextSlide() {
         currentSlide++;
         if (currentSlide + 1 >= slides.length) currentSlide = 0;
         showCurrentSlide();
     }
 
-    function prevSlide() {
-        
-        //currentSlide--;
-        //if (currentSlide - 1 <= 0) currentSlide = slides.length - 1;
+    function prevSlide() {  
+        currentSlide--;
+        if (currentSlide - 1 <= 0) currentSlide = slides.length - 1;
         currentSlide = currentSlide - 1 <= 0 ? slides.length - 1 : currentSlide - 1;
         showCurrentSlide();
     }
-    // setInterval(nextSlide, 1000);
+
     showCurrentSlide();
 
     document.querySelector('.plant_showforward.carousel-button').addEventListener('click', nextSlide);
@@ -124,14 +111,15 @@
                 slideContainer.innerHTML += slides[thirdSlide];
             }
         }
-    }*/
-
-
-    //setInterval (nextSlide, 1000);
+    }
+     function nextSlide(){
+    currentSlide = currentSlide +1 >= slides.length ? 0 : currentSlide + 1;
     showCurrentSlide();
+    }
 
-    document.querySelector('.plant_showforward').addEventListener('click', nextSlide);
-    document.querySelector('.plant_showback').addEventListener('click', prevSlide);
-    window.addEventListener('resize', showCurrentSlide);
+    function prevSlide(){
+    currentSlide = currentSlide - 1 <= 0? slides.length - 1 : currentSlide - 1;
+    showCurrentSlide();
+    }*/
 
 })();

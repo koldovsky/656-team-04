@@ -19,13 +19,9 @@
 .plant_card {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 500px;
-    max-height: 350px;
-    padding: 5%;
-    margin-left: 2%;
-    margin-right: 2%;
+   max-width: 380px;
+    max-height: 375px;
+    padding: 26px;
 }
 
 .icon-wrapper {
@@ -98,33 +94,14 @@
     color:#191c18;
 }
 
-/*@media (min-width: 700px) {
-    .plant_show-wrapper {
-        padding:0px;
-    }
- 
-    .plant-carousel {
-        margin: auto;
-        display: flex;
-        justify-content: center;
-    }
-    
+@media (min-width: 700px) {
+  
     .plant-carousel_list{
         display: flex;
     }
 
     .plant_card {
-        width: 350px;
-        height: 315px;
         margin-left: 30px;
-    }
-
-    .carousel-button{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 50px;
-        width: 130px;
     }
     .icon-wrapper {
         display: block;
