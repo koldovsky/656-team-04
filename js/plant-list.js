@@ -68,7 +68,7 @@
     function showCurrentSlide(){
         const slideContainer = document.querySelector('.plant-carousel_list');
         slideContainer.innerHTML = slides[currentSlide];
-        if(window.innerWidth > 700){ 
+        if(window.innerWidth > 600){ 
            const secondSlide = currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
            slideContainer.innerHTML += slides[secondSlide];
             if(window.innerWidth > 900){
