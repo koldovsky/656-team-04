@@ -36,7 +36,6 @@ function renderCards(cards) {
         <p class="plants_show_description">${card.description}</p>
     </article>`;
     }
-    cardsContainer.innerHTML = html;
 }
 renderCards(cards);
 })();

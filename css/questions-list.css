@@ -1,8 +1,15 @@
 .question_options {
-    margin: 125px 170px 0px 0px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+@media (min-width: 770px) {
+    .question_options {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 .questions {
-    margin: 0px 0px 0px 110px;
+    margin: 100px 0px 0px 30px;
 }
 .questions_smallsubheading {
     font-size: 14px;
@@ -37,12 +44,6 @@
     line-height: 25.5px;
     letter-spacing: 0.85px;
     opacity: 0.7;
-}
-@media (min-width: 980px) {
-    .question_options {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
 }
 .question_btm {
     border-radius: 28px;
