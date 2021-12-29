@@ -97,29 +97,6 @@
     document.querySelector('.plant_showforward.carousel-button').addEventListener('click', nextSlide);
     document.querySelector('.plant_showback.carousel-button').addEventListener('click', prevSlide);
     window.addEventListener('resize', showCurrentSlide)
-
-   /* function showCurrentSlide() {
-        const slideContainer = document.querySelector('.plant_show');
-        slideContainer.innerHTML = slides[currentSlide];
-        if (window.innerWidth > 700) {
-            const secondSlide = currentSlide + 1;
-            if (secondSlide >= slides.length) currentSlide = 0;
-            slideContainer.innerHTML += slides[secondSlide];
-            if (window.innerWidth > 1000) {
-                const thirdSlide = currentSlide + 1;
-                if (thirdSlide >= slides.length) currentSlide = 0;
-                slideContainer.innerHTML += slides[thirdSlide];
-            }
-        }
-    }
-     function nextSlide(){
-    currentSlide = currentSlide +1 >= slides.length ? 0 : currentSlide + 1;
-    showCurrentSlide();
-    }
-
-    function prevSlide(){
-    currentSlide = currentSlide - 1 <= 0? slides.length - 1 : currentSlide - 1;
-    showCurrentSlide();
-    }*/
+    
 
 })();
