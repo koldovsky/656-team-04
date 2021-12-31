@@ -66,6 +66,10 @@
     align-items: center;
   }
 
+  .page-nav__link:hover {
+    color:var(--main-subheading-btn-color);
+}
+
 
 @media (min-width: 700px) {
 
@@ -117,12 +121,14 @@
         margin-left: 5px;
         margin-right: 5px;
         text-decoration: none;
-        display: flex;
+        display: flexbox;
         align-items: center;
+        border-bottom: 2px solid transparent;
     }
 
     .page-nav__link:hover {
         color:var(--main-subheading-btn-color);
+        border-bottom: 2px solid rgb(121, 162, 7);
     }
     
 }
