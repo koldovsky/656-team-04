@@ -1,0 +1,123 @@
+.features-wrapper {
+    background-color: peachpuff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.features-text {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.title {
+    font-size: 14px;
+    font-weight: bold;
+    color:var(--main-subheading-btn-color);
+}
+
+.features-subheader_title {
+    margin-top: 15px;
+    font-size: 34px;
+    font-weight: bold;
+    color:var(--main-heading-color);
+    font-family: "Lora", serif;
+}
+
+.features-subheader_text {
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--main-text-color);
+}
+
+.features-subheader_list {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.list_element {
+    list-style-type: disc;
+    font-size: 15px;
+    color:#191c18;
+    margin-bottom: 16px;
+}
+
+.subheader_picture {
+    margin-top: 50px;
+    margin-bottom: 65px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 700px) {
+    .features-wrapper-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        min-height: 517px;
+    }  
+    
+    .features-text {
+        padding-top: 130px;
+        padding-bottom: 65px;
+    }
+
+    .subheader_picture {
+        padding-top: 130px;
+        margin-bottom: 65px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .title {
+        font-size: 14px;
+        color:var(--main-subheading-btn-color);
+        font-weight: bold;
+    }
+    
+    .features-subheader_title {
+        font-size: 42px;
+        color:var(--main-heading-color);
+        font-family: "Lora", sans-serif;
+    }
+    
+    .features-subheader_text {
+        font-size: 18px;
+        color: var(--main-text-color);
+    }
+    .features-subheader_list {
+        font-size: 15px;
+        color:#191c18;
+    }
+    
+    .btn-about-us {
+        margin: 10px;
+        display: inline-block;
+        font-size: 12px;
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 18px 34px;
+        border-radius: 28px;
+        text-decoration: none;
+        text-align: center;
+        transition: color 0.7s;
+        background-color:var(--main-subheading-btn-color) ;
+    }
+    
+    .btn-about-us:hover {
+      background-color: var(--main-heading-color);
+    }
+
+    .list_element {
+        list-style-type: disc;
+        font-size: 15px;
+        color:#191c18;
+    }
+    
+    
+}
