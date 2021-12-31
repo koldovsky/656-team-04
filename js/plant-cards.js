@@ -34,9 +34,30 @@ const cards = [
     },
     {
         title: "Outdoor Flowers",
-        description: "Flowers form the basis of the exterior and are the first to catch the eye. Charming anemones, freesia, lilies will provide brightness and a pleasant aroma. Choose your outdoor flower! ",
+        description: "Flowers form the basis of the exterior and are the first to catch the eye. Charming anemones, freesia, lilies will provide brightness and a pleasant aroma. Choose your outdoor flower!",
         image: "img/our-plants-pictures/outdoor-flowers.webp",
         image_id: "plants_outdoorflowers",
+        category:"outdoor"
+    },
+    {
+        title: "Succulents",
+        description: "Succulents do not require constant care, perfectly take root in any yard, look nice, and stylish. We will help you to create the optimal composition of succulents in your garden.",
+        image: "img/our-plants-pictures/succulents.webp",
+        image_id: "plants_succulents",
+        category:"outdoor"
+    },
+    {
+        title: "Decorative Moss",
+        description: "Decorative moss and lichen will make the garden truly special. Thanks to their density, coloring, and appearance, you can create a unique picture on the site.",
+        image: "img/our-plants-pictures/decorative-moss.webp",
+        image_id: "plants_decorativemoss",
+        category:"outdoor"
+    },
+    {
+        title: "Decorative Conifers",
+        description: "The real decoration of any yard is decorative coniferous trees. Thuja, mountain pines, cedar pines will charm anyone! These are unpretentious, but very beautiful trees.",
+        image: "img/our-plants-pictures/decorative-conifers.webp",
+        image_id: "plants_decorativeconifers",
         category:"outdoor"
     }
 ];

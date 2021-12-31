@@ -30,7 +30,7 @@
     letter-spacing: 2.8px;
     color: var(--main-subheading-btn-color);
 }
-.indoor_btm, .outdoor_btm:hover {
+.indoor_btm:hover, .outdoor_btm:hover, .selected {
     color: var(--main-heading-color);
 }
 .indoor_btm {
@@ -43,6 +43,54 @@
     height: 0px;
     background-color: grey;
     opacity: 0.2;
+}
+.plants_show_card {
+    margin-top: 30px;
+    padding-left: 25px;
+}
+.plants_show_container {
+    height: 380px; 
+}
+.plants_show_pictures {
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#plants_indortrees {
+    object-position: 34.492% 48.42%;
+}
+#plants_inflorarium {
+    object-position: 66.573% 100%;
+}
+#plants_bigornamental {
+    object-position: 6.814% 7.34%;
+}
+#plants_outdoorflowers {
+    object-position: 39.291% 96.579%;
+}
+#plants_succulents {
+    object-position: 100% 54.385%;
+}
+#plants_decorativemoss {
+    object-position: 50.28% 69.377%;
+}
+#plants_decorativeconifers {
+    object-position: 72.462% 61.763%;
+}
+.plants_show_name {
+    font-size: 24px;
+    font-weight: bold;
+    color:var(--main-heading-color);
+    line-height: 33.6px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.plants_show_description {
+    font-size: 17px;
+    line-height: 25.5px;
+    letter-spacing: 0.85px;
+    opacity: 0.7;
 }
 @media (min-width: 770px) {
     .plants_show {
@@ -61,40 +109,4 @@
     .plants_show {
         grid-template-columns: repeat(4, 1fr);
     }
-}
-    .plants_show_card {
-        margin-top: 30px;
-        padding-left: 25px;
-    }
-    .plants_show_container {
-        height: 380px; 
-    }
-.plants_show_pictures {
-    border-radius: 5px;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-#plants_indortrees {
-    object-position: 34.492% 48.42%;
-}
-#plants_inflorarium {
-    object-position: 66.573% 100%;
-}
-#plants_bigornamental {
-  object-position: 6.814% 7.34%;
-}
-.plants_show_name {
-    font-size: 24px;
-    font-weight: bold;
-    color:var(--main-heading-color);
-    line-height: 33.6px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-.plants_show_description {
-    font-size: 17px;
-    line-height: 25.5px;
-    letter-spacing: 0.85px;
-    opacity: 0.7;
 }
