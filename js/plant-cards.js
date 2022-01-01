@@ -81,12 +81,12 @@ function renderCards(cards, category) {
    
         html +=
         `<article class="plants_show_card">
-        <div class="plants_show_container">
-            <img id="${card.image_id}" class="plants_show_pictures" src="${card.image}" alt="${card.title}">
-        </div>
-        <h3 class="plants_show_name">${card.title}</h3>
-        <p class="plants_show_description">${card.description}</p>
-    </article>`;
+            <div class="plants_show_container">
+                <img id="${card.image_id}" class="plants_show_pictures" src="${card.image}" alt="${card.title}">
+            </div>
+            <h3 class="plants_show_name">${card.title}</h3>
+            <p class="plants_show_description">${card.description}</p>
+        </article>`;
         
     }
      cardsContainer.innerHTML = html;
