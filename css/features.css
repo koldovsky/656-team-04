@@ -1,16 +1,8 @@
-.features-wrapper {
-    background-color: peachpuff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-
-
 .features-text {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .title {
     font-size: 14px;
@@ -33,23 +25,27 @@
     color: var(--main-text-color);
 }
 
-.features-subheader_list {
-    margin-top: 50px;
-    margin-left: 20px;
-}
 
-.list_element {
-    list-style-type: disc;
-    font-size: 15px;
-    color:#191c18;
-    margin-bottom: 16px;
-}
-
-.subheader_picture {
-    margin-top: 50px;
-    margin-bottom: 65px;
+.list-picture {
+    width: 40px;
+    height: 40px;
+    padding-top: 15px;
     padding-left: 15px;
-    padding-right: 15px;
+}
+.list-picture-container {
+background-color:#faf5f2;
+width: 70px;
+height: 70px;
+border-radius: 50%;
+}
+
+.list_element-block {
+    list-style-type: none;
+}
+.list-conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 @media (min-width: 700px) {
@@ -57,19 +53,19 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 30px;
-        min-height: 517px;
     }  
     
     .features-text {
         padding-top: 130px;
         padding-bottom: 65px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
-    .subheader_picture {
-        padding-top: 130px;
-        margin-bottom: 65px;
-        padding-left: 0px;
-        padding-right: 0px;
+    .feature-picture {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     .title {
@@ -93,31 +89,22 @@
         color:#191c18;
     }
     
-    .btn-about-us {
-        margin: 10px;
-        display: inline-block;
-        font-size: 12px;
-        color: #fff;
-        text-transform: uppercase;
-        text-decoration: none;
-        font-weight: bold;
-        padding: 18px 34px;
-        border-radius: 28px;
-        text-decoration: none;
-        text-align: center;
-        transition: color 0.7s;
-        background-color:var(--main-subheading-btn-color) ;
-    }
-    
-    .btn-about-us:hover {
-      background-color: var(--main-heading-color);
-    }
-
-    .list_element {
-        list-style-type: disc;
+    .list_element-block {
+        list-style-type: none;
         font-size: 15px;
         color:#191c18;
     }
-    
-    
-}
+    .list-picture {
+        width: 60px;
+        height: 60px;
+        padding-top: 18px;
+        padding-left: 20px;
+    }
+    .list-picture-container {
+    background-color:#faf5f2;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 25px;
+    }
+} 
