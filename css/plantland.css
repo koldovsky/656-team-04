@@ -19,7 +19,8 @@
 .title {
     font-size: 14px;
     font-weight: bold;
-    color:var(--main-subheading-btn-color);
+    color: var(--main-subheading-btn-color);
+    letter-spacing: 2.8px;
 }
 
 .header-heading {
@@ -84,7 +85,7 @@
     background-color: #191c18;
 }
 
-@media(min-width: 600px) {
+@media(min-width: 700px) {
     .plantland-wrapper {
         background-image: url(../img/header-about-us-picture/about-us-picture.png);
         background-size:cover;
