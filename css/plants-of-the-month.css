@@ -1,0 +1,23 @@
+.pick-of-the-month_wrapper {
+    background-color:seashell;
+    padding-top: 60px;
+    padding-bottom: 90px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.pick-of-the-month__text {
+    text-align: center;
+}
+
+@media (min-width: 700px) {
+    .pick-of-the-month_wrapper {
+        background-color:seashell;
+        padding-top: 60px;
+        padding-bottom: 120px;
+    }
+    
+    .pick-of-the-month__text {
+        text-align: center;
+    }
+}
