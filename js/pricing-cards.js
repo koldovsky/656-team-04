@@ -8,7 +8,7 @@
       <li class="plants-cost_list_element">Bryophyllum</li>
       <li class="plants-cost_list_element">Philodendron</li>
       </p>
-      <a href="#" class="btn-pricing-custom-order">CUSTOM ORDER</a>
+      <a href="#contacts-and-form" class="btn-pricing-custom-order">CUSTOM ORDER</a>
     </article>`,
     `<article class="plants-cost_show_card">
       <p class="plants-cost_name">from $30</p>
@@ -18,7 +18,7 @@
       <li class="plants-cost_list_element">Elephant bush</li>
       <li class="plants-cost_list_element">Crassula ovata</li>
       </p>
-      <a href="#" class="btn-pricing-custom-order">CUSTOM ORDER</a>
+      <a href="#contacts-and-form" class="btn-pricing-custom-order">CUSTOM ORDER</a>
     </article>`,
     `<article class="plants-cost_show_card">
       <p class="plants-cost_name">from $20</p>
@@ -28,7 +28,7 @@
       <li class="plants-cost_list_element">Cedar pine</li>
       <li class="plants-cost_list_element">Thuja</li>
       </p>
-      <a href="#" class="btn-pricing-custom-order">CUSTOM ORDER</a>
+      <a href="#contacts-and-form" class="btn-pricing-custom-order">CUSTOM ORDER</a>
     </article>`,
     `<article class="plants-cost_show_card">
       <p class="plants-cost_name">from $25</p>
@@ -38,7 +38,7 @@
       <li class="plants-cost_list_element">Dieffenbachia</li>
       <li class="plants-cost_list_element">Rubber Tree</li>
       </p>
-      <a href="#" class="btn-pricing-custom-order">CUSTOM ORDER</a>
+      <a href="#contacts-and-form" class="btn-pricing-custom-order">CUSTOM ORDER</a>
     </article>`
   ];
 
