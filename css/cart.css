@@ -1,0 +1,230 @@
+.cart__link-module {
+    position: fixed;
+    width: 40px;
+    top: 30%;
+    right: 10%;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: rgba(248, 248, 248, 0.644);
+    text-decoration: none;
+    z-index: 999990;
+}
+.cart__link-module.cart-none a {
+    display: none;
+}
+.cart-none {
+    display: none;
+}
+
+.cart-img-icon {
+    width: 40px;
+}
+.cart-badge-information {
+    position: fixed;
+    top: 30%;
+    right: 13%;
+    font-size: 14px;
+    color: black;
+    font-weight: 100;
+}
+.cart-module {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.476);
+    top: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: all 0.8s ease 0s;
+    z-index: 999999;
+}
+.cart-module:target {
+    opacity: 1;
+    visibility: visible;
+}
+.cart-module:target .popup-content {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+.popup-body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 500px) {
+    .popup-body {
+        display: flex;
+        justify-content: center;
+        max-width: none;
+    }
+}
+.popup-content {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    background-color: #fff;
+    color: black;
+    position: relative;
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+    transform: translate(opx, -100%);
+}
+@media (min-width: 450px) {
+    .popup-content {
+        max-width: 320px;
+    }
+}
+@media (min-width: 700px) {
+    .popup-content {
+        max-width: 400px;
+    }
+}
+.popup-header {
+    width: 100%;
+    background-color:rgb(247, 248, 250);
+    border-bottom: 0.3px solid rgb(137, 137, 137);
+}
+.popup-header a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+.popup-header a:hover {
+    color: rgb(109, 111, 114);
+    font-size: 16.5px;
+}
+
+.popup-close {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    padding: 5px;
+    text-decoration: none;
+}
+.popup-title {
+    padding: 10px;
+    text-align: start;
+    color: #000;
+    font-size: 16px;
+}
+.popup__product {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.popup__product strong {
+    font-size: 14px;
+}
+.product__data-type {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+.product__list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+.product__list button {
+    cursor: pointer;
+}
+.product__total-sum {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+.list__item {
+    font-size: 12px;
+}
+.list__item-quantity {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.list__quantity {
+    flex: 0 1 50%;
+    font-size: 12px;
+    padding-right: 5px;
+}
+.list__buttom {
+    padding: 0 5px;
+    flex: 0 1 25%;
+}
+.popup-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.cart-form__body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.cart-form__body input {
+    width: 80%;
+    color: #000;
+    padding: 15px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgba(231, 231, 231, 0.703);
+}
+.cart-form__body input::placeholder {
+    color: rgb(86, 86, 86);
+    font-size: 10px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-family: "Lora", serif;
+}
+.cart-form__button {
+    width: 105px;
+    height: 56px;
+    font-weight: 800;
+    background-color: var(--main-subheading-btn-color);
+    margin: 10px;
+    border-radius: 35px;
+    border: none;
+    cursor: pointer;
+    margin-left: 25%;
+}
+.form-btn {
+    padding: 10px;
+    font-size: 12px;
+    color: #fff;
+    font-family: "Lora", serif;
+
+}
+.cart-form__body p {
+    padding: 10px 0;
+}

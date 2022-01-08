@@ -41,6 +41,40 @@
         </div>
     </header>
     <main>
+        <div id="cart-icon" class="cart-icon">
+            <a href="#cart-module" class="cart__link-module">
+                <img clas = "cart-img-icon" src="img/shop-basket-pictures/bag.png" alt="shop-basket">
+                <span id="cart-badge-information" class="cart-badge-information"></span>
+            </a>
+        </div>
+        <div id="cart-module" class="cart-module">
+            <div class="popup-body container">
+                <div class="popup-content">
+                    <div class="popup-header">
+                        <a href="#header" class="popup-close">X</a>
+                        <div class="popup-title">
+                            <h2>Shopping cart</h2>
+                        </div>
+                    </div>
+                    <div class="popup__product"></div>
+                    <div class="popup-form">
+                        <form action="https://formspree.io/f/mgedvqdo" method="POST" id="cart-form"
+                            class="cart-form__body">
+                            <label class="cart-label">Name</label>
+                            <input id="client-name" type="name" name="name" placeholder="Name" required>
+                            <label class="cart-label">Email</label>
+                            <input id="client-email" type="email" name="email" placeholder="Email" required>
+                            <label class="cart-label">Phone</label>
+                            <input id="client-number" type="number" name="number" placeholder="Phone" required>
+                            <label class="cart-label">Comment</label>
+                            <input id="client-comment" type="text" name="comment" placeholder="Comment" required>
+                            <button id="cart-form-button" class="cart-form__button"><p class="form-btn">ORDER</p></button>
+                            <p id="cart-form-status"></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
         <section id="plantland" class="plantland-wrapper ">
             <div class="plantland-container">
                 <div class="plantland-text">
@@ -49,7 +83,7 @@
                     <p class="header_subheading">Check out our store in New York with the best indoor & outdoor plants
                         that are suitable for growing exactly in your conditions.</p>
                     <a href="#" class="btn-header-best-plants">BEST PLANTS</a>
-                    <a href="#" class="btn-header-lean-more">LEARN MORE</a>
+                    <a href="#about" class="btn-header-lean-more">LEARN MORE</a>
                 </div>
             </div>
         </section>
@@ -116,32 +150,20 @@
                 <a href="#contacts-and-form" class="question_btm">CONTACT US</a>
             </div>
         </div>
-        <section id="pick-of-the-month" class="pick-of-the-month_wrapper">
+        <section id="products" id="pick-of-the-month" class="pick-of-the-month_wrapper">
             <div class="pick-of-the-month container">
                 <div class="pick-of-the-month__text">
-                    <p class="title">―BESTSELLERS―</p>
-                    <h1 class="header-heading">Plants of the Month</h1>
+                    <p class="ourplants_smallsubheading">―BESTSELLERS―</p>
+                    <h1 class="ourplants_heading">Plants of the Month</h1>
+                </div>
+                <button class="sort-asc btn">Sort Ascending  EVERGREENS</button>
+                <button class="sort-desc btn">Button Descending SUCCULENTS </button>
+                <div class="row products-container plants_show">
+                    <!--Products are dynamically generated here-->
                 </div>
             </div>
         </section>
-        <!--<div id="featured-sale-new" class="featured-sale-new">
-            <div class="pick-of-the-month fsn__tabs-nav">
-                <a class="tab__link" data-tab="#fsn-featured">EVERGREENS</a>
-                <a class="tab__link" data-tab="#fsn-sale">SUCCULENTS</a>
-            </div>
-            <div id="fsn-featured" class="fsn-tabs__item fsn-featured">
-                <div class="featured__items"></div>
-            </div>
-            <div id="fsn-sale" class="fsn-tabs__item fsn-sale">
-                <div class="sale__items"></div>
-            </div>
-            <div id="fsn-new" class="fsn-tabs__item fsn-new">
-                <div class="new__items"></div>
-            </div>
-        </div>
-        
-            <div class="pick-of-the-month__shop">
-                <article class="pick-of-the-month__card">
+        <!-- <article class="pick-of-the-month__card">
                     <p>
                         <a href=""><img src="img/shop-basket-pictures/floral-moss.png" alt="Floral Moss"></a>
                     </p>
@@ -399,6 +421,10 @@
     <script src="js/pricing-cards.js"></script>
     <script src="js/plant-cards.js"></script>
     <script src="js/question-cards.js"></script>
+    <script src="js/products-service.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/product-list.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
