@@ -1,65 +1,8 @@
-/* .footer-nav {
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    margin: 30px 0px 0px 0px;
-    background-color: var( --main-heading-color);
-    color: white;
-    min-height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer-nav__logo-img {
-    width: 162px;
-    padding-left: 30px;
-}
-
-.footer-nav__menu {
-    padding: 10px 30px 10px 30px;
-    display: flex;
-    flex-direction: column;
-    min-height: 300px;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.footer-nav__menu-item {
-    color: white;
-    text-decoration: none;
-}
-
-.footer-nav__menu-item:hover {
-    color: #79a207;
-    ;
-}
-
-@media (min-width: 770px) {
-    .footer-nav {
-        min-height: 230px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .footer-nav__menu {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        padding-right: 0px;
-        width: 50vw;
-        height: 200px;
-        margin: 0px 100px 0px 20px;
-    }
-} */
-
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+} */
 
 .footer-nav__logo-img {
     width: 162px;
@@ -68,6 +11,7 @@
 
 .footer-navbar {
     min-height: 100px;
+    width: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -75,13 +19,8 @@
     background-color: var(--main-heading-color);
 }
 
-li {
+.footer-nav-item {
     list-style: none;
-}
-
-a {
-    color: white;
-    text-decoration: none;
 }
 
 .footer-nav-menu {
@@ -93,6 +32,8 @@ a {
 .footer-nav-link {
     padding-left: 60px;
     transition: 0.1s ease;
+    color: white;
+    text-decoration: none;
 }
 
 .footer-nav-link:hover {
@@ -124,23 +65,25 @@ a {
     .footer-hamburger.active .footer-bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
-    .footer-hamburger.active .footer-bar:nth-child(1) {
+    .footer-hamburger.active .footer-bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
     .footer-nav-menu {
         position: fixed;
-        left: -100%;
-        bottom: 70px;
+        bottom: -100%;
+        left: -10px;
         flex-direction: column;
         background-color: var(--main-heading-color);
         width: 100%;
+        height: 100vh;
         text-align: center;
+        justify-content: center;
         transition: 0.3s;
     }
     .footer-nav-item {
         margin: 16px 0;
     }
     .footer-nav-menu.active {
-        left: 0;
+        bottom: 0;
     }
 }
