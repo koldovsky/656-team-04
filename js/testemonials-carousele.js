@@ -2,19 +2,19 @@
 
     const slides = [
         `<div class="image-wrapper">
-            <img class="plant-icon" src="img/testemonials/green-line.webp" alt="Green-line">
+            <img class="testemonials-icon" src="img/testemonials/green-line.webp" alt="Green-line">
         </div>`,
         `<div class="image-wrapper">
-            <img class="plant-icon" src="img/testemonials/green-wave.webp" alt="Green wave">
+            <img class="testemonials-icon" src="img/testemonials/green-wave.webp" alt="Green wave">
         </div>`,
         `<div class="image-wrapper">
-            <img class="plant-icon" src="img/testemonials/home-and-garden.webp" alt="Home and Garden">
+            <img class="testemonials-icon" src="img/testemonials/home-and-garden.webp" alt="Home and Garden">
         </div>`,
         `<div class="image-wrapper">
-            <img class="plant-icon" src="img/testemonials/home.webp" alt="Home">
+            <img class="testemonials-icon" src="img/testemonials/home.webp" alt="Home">
         </div>`,
         `<div class="image-wrapper">
-            <img class="plant-icon" src="img/testemonials/planta.webp" alt="Planta">
+            <img class="testemonials-icon" src="img/testemonials/planta.webp" alt="Planta">
         </div>`
     ];
 

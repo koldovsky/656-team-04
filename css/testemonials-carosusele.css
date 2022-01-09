@@ -1,7 +1,7 @@
 .testemonial-wrapper {
     background-color: var(--main-heading-color);
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
 }
 
@@ -10,18 +10,14 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    padding-top: 90px;
-    padding-bottom: 90px;
-    padding-left: 40px;
-    padding-right: 40px;
 }
 
 .image-wrapper {
     display: flex;
     flex-direction: column;
-    width: 411px;
-    height: 327px;
-    padding: 26px;
+    background-color: rgba(121, 162, 7, 0.23);
+    width: 465px;
+    height: 258px;
 }
 
 .testemonial-carousel_list {
@@ -29,18 +25,34 @@
     flex-direction: row;
 }
 
+
+@media(min-width: 600px) {
+    .image-wrapper {
+        margin-left: 30px;
+    }
+
+    .plant_showback{
+        position: absolute;
+        top: 172px;
+        left: 15px;
+        }
+    
+}
+
+
 @media (min-width: 700px) {
 
 .testemonial-carousel {
-    padding-top: 130px;
-    padding-bottom: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .image-wrapper {
     margin-left: 30px;
     background-color: rgba(121, 162, 7, 0.23);
-    width: 311px;
-    height: 327px;
+    width: 236px;
+    height: 155px;
 }
 
 .plant-icon {
