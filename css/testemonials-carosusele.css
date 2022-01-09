@@ -19,11 +19,9 @@
 .image-wrapper {
     display: flex;
     flex-direction: column;
-    width: 236px;
-    height: 184px;
+    width: 411px;
+    height: 327px;
     padding: 26px;
-    background-color: gray;
-    border: 3px solid #0d3c00;
 }
 
 .testemonial-carousel_list {
@@ -39,9 +37,10 @@
 }
 
 .image-wrapper {
-    background-color: gray;
-    
-    border: 3px solid #0d3c00;
+    margin-left: 30px;
+    background-color: rgba(121, 162, 7, 0.23);
+    width: 311px;
+    height: 327px;
 }
 
 .plant-icon {
