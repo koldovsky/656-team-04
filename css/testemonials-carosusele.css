@@ -1,14 +1,35 @@
 .testemonial-wrapper {
     background-color: var(--main-heading-color);
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
 }
 
 .testemonial-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
     padding-top: 90px;
     padding-bottom: 90px;
     padding-left: 40px;
     padding-right: 40px;
 }
 
+.image-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 236px;
+    height: 184px;
+    padding: 26px;
+    background-color: gray;
+    border: 3px solid #0d3c00;
+}
+
+.testemonial-carousel_list {
+    display: flex;
+    flex-direction: row;
+}
 
 @media (min-width: 700px) {
 
@@ -18,13 +39,19 @@
 }
 
 .image-wrapper {
-    width: 236px;
-    height: 184px;
+    background-color: gray;
+    
     border: 3px solid #0d3c00;
 }
 
 .plant-icon {
     max-height: 104px;
     max-width: 126px;
+}
+
+.testemonial-carousel_list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 }
