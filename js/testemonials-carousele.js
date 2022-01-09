@@ -1,21 +1,31 @@
 (function(){
 
     const slides = [
-        `<div class="image-wrapper">
+        `<article class="testemonials-card-container">
+        <div class="image-wrapper">
             <img class="testemonials-icon" src="img/testemonials/green-line.webp" alt="Green-line">
-        </div>`,
-        `<div class="image-wrapper">
+        </div>
+        </article>`,
+        `<article class="testemonials-card-container">
+        <div class="image-wrapper">
             <img class="testemonials-icon" src="img/testemonials/green-wave.webp" alt="Green wave">
-        </div>`,
-        `<div class="image-wrapper">
+        </div>
+        </article>`,
+        `<article class="testemonials-card-container">
+        <div class="image-wrapper">
             <img class="testemonials-icon" src="img/testemonials/home-and-garden.webp" alt="Home and Garden">
-        </div>`,
-        `<div class="image-wrapper">
+        </div>
+        </article>`,
+        `<article class="testemonials-card-container">
+        <div class="image-wrapper">
             <img class="testemonials-icon" src="img/testemonials/home.webp" alt="Home">
-        </div>`,
-        `<div class="image-wrapper">
+        </div>
+        </article>`,
+        `<article class="testemonials-card-container">
+        <div class="image-wrapper">
             <img class="testemonials-icon" src="img/testemonials/planta.webp" alt="Planta">
-        </div>`
+        </div>
+        </article>`
     ];
 
     let currentSlide = 0;
@@ -45,8 +55,8 @@
 
     showCurrentSlide();
 
-    document.querySelector('.testemonial_showforward.carousel-button').addEventListener('click', nextSlide);
-    document.querySelector('.testemonial_showback.carousel-button').addEventListener('click', prevSlide);
+    document.querySelector('.testemonial_showforward').addEventListener('click', nextSlide);
+    document.querySelector('.testemonial_showback').addEventListener('click', prevSlide);
     window.addEventListener('resize', showCurrentSlide);
 
 })();
