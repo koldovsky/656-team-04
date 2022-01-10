@@ -16,6 +16,8 @@
 }
 .kindwords-inner{
 margin-top: 30px;
+margin-right: 30px;
+margin-left: 30px;
 }
 @media (min-width: 768px){
     .kindwords-inner{
@@ -76,7 +78,8 @@ text-align: left;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.56;
-    color: var(--main-text-color);    
+    color: var(--main-text-color);
+    margin-bottom: 15px;    
 }
 @media (min-width: 768px){
     .kindwords-subheader{
@@ -119,14 +122,16 @@ text-align: left;
 .testimonials-photo-person {
     background-color: transparent;
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
+    margin-top: 60px;
 }
 @media (min-width: 768px){
     .testimonials-photo-person{
     width: 130px;
     height: 130px;
     border-radius: 50%;
+    margin-top: 50px;
 }
 }
 .testimonials-text{
