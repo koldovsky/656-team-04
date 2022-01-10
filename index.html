@@ -11,13 +11,14 @@
 </head>
 
 <body>
-    <!--Marta Panasiuk-->
+    <!--Marta Panasiuk start-->
     <header class="container">
         <div class="page-header navbar">
             <div class="header-logo-button">
                 <div class="header_top-logo">
                     <a href="#about" class="logo-link">
-                        <img class="header-logo" src="./img/header-about-us-picture/header_logo.svg" alt="PlantLand logo">
+                        <img class="header-logo" src="./img/header-about-us-picture/header_logo.svg"
+                            alt="PlantLand logo">
                     </a>
                 </div>
                 <div class="page-nav__toggle">
@@ -40,47 +41,13 @@
         </div>
     </header>
     <main>
-        <div id="cart-icon" class="cart-icon">
-            <a href="#cart-module" class="cart__link-module">
-                <img clas="cart-img-icon" src="img/shop-basket-pictures/bag.png" alt="shop-basket">
-                <span id="cart-badge-information" class="cart-badge-information"></span>
-            </a>
-        </div>
-        <div id="cart-module" class="cart-module">
-            <div class="popup-body container">
-                <div class="popup-content">
-                    <div class="popup-header">
-                        <a href="#header" class="popup-close">X</a>
-                        <div class="popup-title">
-                            <h2>Shopping cart</h2>
-                        </div>
-                    </div>
-                    <div class="popup__product"></div>
-                    <div class="popup-form">
-                        <form action="https://formspree.io/f/mgedvqdo" method="POST" id="cart-form" class="cart-form__body">
-                            <label class="cart-label">Name</label>
-                            <input id="client-name" type="name" name="name" placeholder="Name" required>
-                            <label class="cart-label">Email</label>
-                            <input id="client-email" type="email" name="email" placeholder="Email" required>
-                            <label class="cart-label">Phone</label>
-                            <input id="client-number" type="number" name="number" placeholder="Phone" required>
-                            <label class="cart-label">Comment</label>
-                            <input id="client-comment" type="text" name="comment" placeholder="Comment" required>
-                            <button id="cart-form-button" class="cart-form__button">
-                                <p class="form-btn">ORDER</p>
-                            </button>
-                            <p id="cart-form-status"></p>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
         <section id="plantland" class="plantland-wrapper ">
             <div class="plantland-container">
                 <div class="plantland-text">
                     <p class="title">―PLANTLAND―</p>
                     <h1 class="header-heading">Make Your Home Green</h1>
-                    <p class="header_subheading">Check out our store in New York with the best indoor & outdoor plants that are suitable for growing exactly in your conditions.</p>
+                    <p class="header_subheading">Check out our store in New York with the best indoor & outdoor plants
+                        that are suitable for growing exactly in your conditions.</p>
                     <a href="#" class="btn-header-best-plants">BEST PLANTS</a>
                     <a href="#about" class="btn-header-lean-more">LEARN MORE</a>
                 </div>
@@ -91,7 +58,9 @@
                 <div class="about-us-text">
                     <p class="title">―ABOUT US―</p>
                     <h3 class="subheader_title">Fill Your Home and Garden With Beautiful, Green Plants!</h3>
-                    <p class="subheader_text">Our shop offers you to buy home plants to decorate your home or office. In our offline shop, you will find the best selection of flowers and evergreens at attractive prices. We get indoor flowers from the best suppliers in NY, all
+                    <p class="subheader_text">Our shop offers you to buy home plants to decorate your home or office. In
+                        our offline shop, you will find the best selection of flowers and evergreens at attractive
+                        prices. We get indoor flowers from the best suppliers in NY, all
                         plants are grown with strict adherence to technology. Just adding some text. We offer:</p>
                     <ul class="subheader_list">
                         <li class="list_element">LARGE SELECTION OF DIFFERENT PLANTS</li>
@@ -100,7 +69,8 @@
                     <a href="#" class="btn-about-us">BROWSE PLANTS</a>
                 </div>
                 <div class="subheader_picture container">
-                    <img class="about-us-picture" src="./img/header-about-us-picture/block-about-us.webp" alt="Plants Picture">
+                    <img class="about-us-picture" src="./img/header-about-us-picture/block-about-us.webp"
+                        alt="Plants Picture">
                 </div>
             </div>
         </section>
@@ -116,6 +86,7 @@
                 <img class="list-bottom" src="./img/header-about-us-picture/plant-list-bottom.png">
             </div>
         </section>
+        <!--Marta Panasiuk end-->
         <!--section Our Plants-->
         <p id="our_plants" class="ourplants_smallsubheading">―WHAT WE OFFER―</p>
         <h2 class="ourplants_heading">Our Plants</h2>
@@ -138,96 +109,15 @@
             <div class="questions">
                 <p class="questions_smallsubheading">―FAQ―</p>
                 <h2 class="questions_heading">Have a Question?</h2>
-                <p class="questions_subheading">We are happy to answer any questions! Come to our store or leave your question in the contact form!
+                <p class="questions_subheading">We are happy to answer any questions! Come to our store or leave your
+                    question in the contact form!
                 </p>
                 <div class="questions_list">
                 </div>
                 <a href="#contacts-and-form" class="question_btm">CONTACT US</a>
             </div>
         </div>
-        <section id="products" id="pick-of-the-month" class="pick-of-the-month_wrapper">
-            <div class="pick-of-the-month container">
-                <div class="pick-of-the-month__text">
-                    <p class="ourplants_smallsubheading">―BESTSELLERS―</p>
-                    <h1 class="ourplants_heading">Plants of the Month</h1>
-                </div>
-                <button class="sort-asc btn">Sort Ascending EVERGREENS</button>
-                <button class="sort-desc btn">Button Descending SUCCULENTS </button>
-                <div class="row products-container plants_show">
-                    <!--Products are dynamically generated here-->
-                </div>
-            </div>
-        </section>
-        <!-- <article class="pick-of-the-month__card">
-                    <p>
-                        <a href=""><img src="img/shop-basket-pictures/floral-moss.png" alt="Floral Moss"></a>
-                    </p>
-                    <h4><a href="">Floral Moss</a></h4>
-                    <p><b>$33,00</b></p>
-                    <button>ORDER NOW</button>
-                </article>
-                <article class="pick-of-the-month__card">
-                    <p>
-                        <a href=""><img src="img/shop-basket-pictures/areca-palm.png" alt="Areca Palm"></a>
-                    </p>
-                    <h4><a href="">Areca Palm</a></h4>
-                    <p><b>$22,00</b></p>
-                    <button>ORDER NOW</button>
-                </article>
-                <article class="pick-of-the-month__card">
-                    <p>
-                        <a href=""><img src="img/shop-basket-pictures/monstera-obliqua.jpg" alt="Monstera Obliqua"></a>
-                    </p>
-                    <h4><a href="">Monstera Obliqua</a></h4>
-                    <p><b>$45,00</b></p>
-                    <button>ORDER NOW</button>
-                </article>
-                <article class="pick-of-the-month__card">
-                    <p>
-                        <a href=""><img src="img/shop-basket-pictures/sansevieria-trifasciata.jpg"
-                                alt="Sansevieria Trifasciata"></a>
-                    </p>
-                    <h4><a href="">Sansevieria Trifasciata</a></h4>
-                    <p><b>$36,00</b></p>
-                    <button>ORDER NOW</button>
-                </article>
-                <article class="pick-of-the-month__card">
-                    <p>
-                        <a href=""><img src="img/shop-basket-pictures/graptosedum-darley.png"
-                                alt="Graptosedum Darley"></a>
-                    </p>
-                    <h4><a href="">Graptosedum Darley</a></h4>
-                    <p><b>$32,00</b></p>
-                    <button>ORDER NOW</button>
-                </article>
-                <article class="pick-of-the-month__card">
-                    <p>
-                        <a href=""><img src="img/shop-basket-pictures/haworthia-venosa.png" alt="Haworthia Venosa"></a>
-                    </p>
-                    <h4><a href="">Haworthia Venosa</a></h4>
-                    <p><b>$48,00</b></p>
-                    <button>ORDER NOW</button>
-                </article>
-                <article class="pick-of-the-month__card">
-                    <p>
-                        <a href=""><img src="img/shop-basket-pictures/silver-yorch.png" alt="Silver Torch"></a>
-                    </p>
-                    <h4><a href="">Silver Torch</a></h4>
-                    <p><b>$24,00</b></p>
-                    <button>ORDER NOW</button>
-                </article>
-                <article class="pick-of-the-month__card">
-                    <p>
-                        <a href=""><img src="img/shop-basket-pictures/notocactus-roseoluteus.png"
-                                alt="Notocactus Roseoluteus"></a>
-                    </p>
-                    <h4><a href="">Notocactus Roseoluteus</a></h4>
-                    <p><b>$33,00</b></p>
-                    <button>ORDER NOW</button>
-                </article>
-            </div>
-        </div>
-        </section>-->
+        <!--Marta Panasiuk start-->
         <section class="statistics-line-wrapper">
             <div class="statistics-information container">
                 <div class="statistic-container-text">
@@ -252,35 +142,43 @@
             <div class="features-text">
                 <p class="title">―FEATURES―</p>
                 <h3 class="features-subheader_title">Why Choose Us</h3>
-                <p class="features-subheader_text">In our store and greenhouse, we grow and sell only the best plants. With PlantLand you can make your home or office cozier.</p>
+                <p class="features-subheader_text">In our store and greenhouse, we grow and sell only the best plants.
+                    With PlantLand you can make your home or office cozier.</p>
                 <ul class="features-subheader_list">
                     <li class="list_element-block">
                         <div class="list-conteiner">
-                            <div class="list-picture-container"><img class="list-picture" src="./img/header-about-us-picture/features-plant-icon.svg" alt="Plant Icon"></div>
+                            <div class="list-picture-container"><img class="list-picture"
+                                    src="./img/header-about-us-picture/features-plant-icon.svg" alt="Plant Icon"></div>
                             <div class="feature-text">
                                 <h3 class="container-header">Best Plants</h3>
-                                <p class="container-text">We sell plants from the best gardeners and our own greenhouse. In our store, you will find even the most exotic flowers, trees, shrubs.</p>
+                                <p class="container-text">We sell plants from the best gardeners and our own greenhouse.
+                                    In our store, you will find even the most exotic flowers, trees, shrubs.</p>
                             </div>
                         </div>
                     </li>
                     <li class="list_element-block">
                         <div class="list-conteiner">
-                            <div class="list-picture-container"><img class="list-picture" src="./img/header-about-us-picture/feature-plant-anothericon.svg" alt="Plant Icon">
+                            <div class="list-picture-container"><img class="list-picture"
+                                    src="./img/header-about-us-picture/feature-plant-anothericon.svg" alt="Plant Icon">
                             </div>
                             <div class="feature-text">
                                 <h3 class="container-header">Related Products</h3>
-                                <p class="container-text">In addition to plants, you can buy everything you need to grow them. We offer top dressing, fertilizers, accessories, flowerpots, and much more.
+                                <p class="container-text">In addition to plants, you can buy everything you need to grow
+                                    them. We offer top dressing, fertilizers, accessories, flowerpots, and much more.
                                 </p>
                             </div>
                         </div>
                     </li>
                     <li class="list_element-block">
                         <div class="list-conteiner">
-                            <div class="list-picture-container"><img class="list-picture" src="./img/header-about-us-picture/features-icon.svg" alt="Plant Icon">
+                            <div class="list-picture-container"><img class="list-picture"
+                                    src="./img/header-about-us-picture/features-icon.svg" alt="Plant Icon">
                             </div>
                             <div class="feature-text">
                                 <h3 class="container-header">Consultations</h3>
-                                <p class="container-text">You will receive all the necessary information about the plan you buy. We will tell you how to properly prepare the plant for planting, how to water it, and keep it alive.
+                                <p class="container-text">You will receive all the necessary information about the plan
+                                    you buy. We will tell you how to properly prepare the plant for planting, how to
+                                    water it, and keep it alive.
                                 </p>
                             </div>
                         </div>
@@ -303,6 +201,7 @@
                 </div>
             </div>
         </section>
+        <!--Marta Panasiuk end-->
         <!--Nataliia Bodnar-->
         <!-- Pricing section-->
         <section id="pricing" class="pricing-wrapper">
@@ -334,18 +233,21 @@
                         </h5>
                         <h2 class="kindwords-header">Testimonials
                         </h2>
-                        <p class="kindwords-subheader">Our main task is to help you make sure that your home is always full of greenery, oxygen, and comfort!
+                        <p class="kindwords-subheader">Our main task is to help you make sure that your home is always
+                            full of greenery, oxygen, and comfort!
                         </p>
                         <div class="testimonials-list">
                             <div class="testimonials-list-block-component">
                                 <div class="testimonials-personal-container">
                                     <div class="testimonials-photo-container">
-                                        <img class="testimonials-photo-person" src="./img/kindwords-photos/Dani-Samston-photo.png" alt="Dani Samston">
+                                        <img class="testimonials-photo-person"
+                                            src="./img/kindwords-photos/Dani-Samston-photo.png" alt="Dani Samston">
                                     </div>
                                     <div class="testimonials-text">
                                         <p class="person-name-container-header">Dani Samston</p>
                                         <p class="person-feedback-container-text">
-                                            I bought flowers to decorate our home 3 years ago in this store. All plants still live and bloom. We buy all fertilizers for them only at PlantLand.
+                                            I bought flowers to decorate our home 3 years ago in this store. All plants
+                                            still live and bloom. We buy all fertilizers for them only at PlantLand.
                                         </p>
                                     </div>
                                 </div>
@@ -355,12 +257,14 @@
                             <div class="testimonials-list-block-component">
                                 <div class="testimonials-personal-container">
                                     <div class="testimonials-photo-container">
-                                        <img class="testimonials-photo-person" src="./img/kindwords-photos/Linda-Peterson-photo.png" alt="Linda Peterson">
+                                        <img class="testimonials-photo-person"
+                                            src="./img/kindwords-photos/Linda-Peterson-photo.png" alt="Linda Peterson">
                                     </div>
                                     <div class="testimonials-text">
                                         <p class="person-name-container-header">Linda Peterson</p>
                                         <p class="person-feedback-container-text">
-                                            Thank you so much for helping me take care of my home flower garden. PlantLand sells excellent fertilizers and quality solution for pest control.
+                                            Thank you so much for helping me take care of my home flower garden.
+                                            PlantLand sells excellent fertilizers and quality solution for pest control.
                                         </p>
                                     </div>
                                 </div>
@@ -370,12 +274,15 @@
                             <div class="testimonials-list-block-component">
                                 <div class="testimonials-personal-container">
                                     <div class="testimonials-photo-container">
-                                        <img class="testimonials-photo-person" src="./img/kindwords-photos/Sandy-Johnson-photo.png" alt="Sandy Johnson">
+                                        <img class="testimonials-photo-person"
+                                            src="./img/kindwords-photos/Sandy-Johnson-photo.png" alt="Sandy Johnson">
                                     </div>
                                     <div class="testimonials-text">
                                         <p class="person-name-container-header">Sandy Johnson</p>
                                         <p class="person-feedback-container-text">
-                                            I bought trees and shrubs here for my home garden. Surprisingly, all plants took root. There were no problems at all with their planting and cultivation.
+                                            I bought trees and shrubs here for my home garden. Surprisingly, all plants
+                                            took root. There were no problems at all with their planting and
+                                            cultivation.
                                         </p>
                                     </div>
                                 </div>
@@ -389,6 +296,7 @@
             </div>
         </section>
         <!--End of Kind Words section-->
+        <!--Marta Panasiuk start-->
         <section class="testemonial-wrapper">
             <div class=" testemonial-carousel container">
                 <div class="testemonial_showback"></div>
@@ -400,8 +308,8 @@
             <div class="article-container">
                 <p class="article_title">―ARTICLES―</p>
                 <h1 class="article_header-heading">Blog</h1>
-                <p class="article_header_subheading">We often share useful information on cultivating and caring for indoor and outdoor plants. Check <br /> out our latest blog posts!</p>
-
+                <p class="article_header_subheading">We often share useful information on cultivating and caring for
+                    indoor and outdoor plants. Check <br /> out our latest blog posts!</p>
                 <div class="article_blog">
                     <p class="article_text">No blog posts yet...</p>
                 </div>
@@ -412,6 +320,7 @@
                 <img class="list-bottom" src="./img/header-about-us-picture/plant-list-bottom.png">
             </div>
         </section>
+        <!--Marta Panasiuk end-->
     </main>
     <!--Kateryna Padafa start-->
 
@@ -434,7 +343,8 @@
                 </div>
             </div>
             <div class="google-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.9352004562984!2d24.025792334594104!3d49.84367507635538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add7ce8d9f5e1%3A0x562d904f1e58b9b8!2zTWNEb25hbGTigJlz!5e0!3m2!1sru!2sua!4v1639146918419!5m2!1sru!2sua"
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.9352004562984!2d24.025792334594104!3d49.84367507635538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add7ce8d9f5e1%3A0x562d904f1e58b9b8!2zTWNEb25hbGTigJlz!5e0!3m2!1sru!2sua!4v1639146918419!5m2!1sru!2sua"
                     allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
@@ -445,17 +355,22 @@
                 <p class="customer-form__text-to-customer">
                     If you want to buy a plant, visit our offline store or the greenhouse, leave us a message.
                 </p>
-                <input class="customer-form__input" name="customer-form__name" type="text" placeholder="Enter your full name*" required>
-                <input class="customer-form__input" name="customer-form__phone-number" type="text" placeholder="Enter your phone number*" required>
-                <input class="customer-form__input" name="customer-form__email" type="email" placeholder="Enter your e-mail*" required>
-                <input class="customer-form__input" name="customer-form__message" type="text" placeholder="Leave your message">
+                <input class="customer-form__input" name="customer-form__name" type="text"
+                    placeholder="Enter your full name*" required>
+                <input class="customer-form__input" name="customer-form__phone-number" type="text"
+                    placeholder="Enter your phone number*" required>
+                <input class="customer-form__input" name="customer-form__email" type="email"
+                    placeholder="Enter your e-mail*" required>
+                <input class="customer-form__input" name="customer-form__message" type="text"
+                    placeholder="Leave your message">
                 <button class="customer-form__submit">Submit</button>
             </form>
         </div>
     </div>
     <footer>
         <nav class="footer-navbar">
-            <a href="index.html"><img src="img/footer-pictures/white-logo.svg" alt="footer logo" class="footer-nav__logo-img"></a>
+            <a href="index.html"><img src="img/footer-pictures/white-logo.svg" alt="footer logo"
+                    class="footer-nav__logo-img"></a>
             <ul class="footer-nav-menu">
                 <li class="footer-nav-item">
                     <a href="#about" class="footer-nav-link">About us</a>
@@ -502,10 +417,6 @@
     <script src="js/plant-cards.js"></script>
     <script src="js/question-cards.js"></script>
     <script src="js/footer-burger-menu.js"></script>
-    <!--<script src="js/products-service.js"></script>
-    <script src="js/cart.js"></script>
-    <script src="js/product-list.js"></script>
-    <script src="js/index.js"></script>-->
     <script src="js/testemonials-carousele.js"></script>
 </body>
 
