@@ -32,30 +32,30 @@
     }
 }
 .plants-pricing.carousel_button_forward {
-  width: 80px;
+  width: 40px;
   height: 40px;
-  background-color: #fff;
-  border-radius: 25%;
+  background-color: transparent;
+  border-radius: 50%;
   border: none;
   padding-top: 4px;
-  margin-left: 15px;
+  margin-left: -10px;
   margin-right: 15px;
 }
 
 .plants-pricing.carousel_button_back{
-  width: 80px;
+  width: 40px;
   height: 40px;
-  background-color: #fff;
-  border-radius: 25%;
+  background-color: transparent;
+  border-radius: 50%;
   border: none;
   padding-top: 4px;
   margin-left: 15px;
-  margin-right: 15px;
+  margin-right: -10px;
 }
 
 .pricing-wrapper{
   width: 100%;
-  max-width: 1200px;
+  max-width: auto;
   margin: 0 auto;
   padding: 0 24px;
   font: inherit;
