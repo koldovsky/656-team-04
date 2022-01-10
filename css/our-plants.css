@@ -44,6 +44,9 @@
     background-color: grey;
     opacity: 0.2;
 }
+.plants_show {
+    justify-items: center;
+}
 .plants_show_card {
     margin-top: 30px;
     padding-left: 25px;
