@@ -44,9 +44,6 @@
     background-color: grey;
     opacity: 0.2;
 }
-.plants_show {
-    justify-items: center;
-}
 .plants_show_card {
     margin-top: 30px;
     padding-left: 25px;
@@ -108,7 +105,7 @@
         margin-right: 30px;
     }
 }
-@media (min-width: 990px) {
+@media (min-width: 980px) {
     .plants_show {
         grid-template-columns: repeat(4, 1fr);
     }
