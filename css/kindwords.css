@@ -1,7 +1,5 @@
 .kindwords-wrapper-grid-container{
     display: grid;
-    padding-top: 90px;
-    padding-bottom: 90px;
     position: relative;
     min-width: 320px;
     font-size: 17px;
@@ -21,7 +19,7 @@ margin-top: 30px;
 }
 @media (min-width: 768px){
     .kindwords-inner{
-        padding-top: 130px;
+        padding-top: 30px;
         padding-bottom: 65px;
         padding-left: 30px;
         padding-right: 30px;
@@ -40,7 +38,7 @@ text-align: left;
     font-size: 14px;
     line-height: 1.43;
     letter-spacing: .2em;
-    font-weight: 400;
+    font-weight: bold;
     color:var(--main-subheading-btn-color);
 
 }
@@ -49,7 +47,7 @@ text-align: left;
         font-size: 14px;
         line-height: 1.43;
         letter-spacing: .2em;
-        font-weight: 400;
+        font-weight: bold;
         color:var(--main-subheading-btn-color);
     }
 }
@@ -58,7 +56,7 @@ text-align: left;
     font-size: 34px;
     line-height: 1.2;
     letter-spacing: 0;
-    font-weight: 400;
+    font-weight: 700;
     color:var(--main-heading-color);
     font-family: "Lora", serif;
 }
@@ -84,7 +82,7 @@ text-align: left;
     .kindwords-subheader{
         margin-top: 25px;
         font-size: 18px;
-        font-weight: bold;
+        font-weight: 400;
         line-height: 1.56;
         color: var(--main-text-color);    
     }
@@ -120,25 +118,21 @@ text-align: left;
 */
 .testimonials-photo-person {
     background-color: transparent;
-    border-radius: 51%;
+    border-radius: 50%;
     width: 100px;
     height: 100px;
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 @media (min-width: 768px){
     .testimonials-photo-person{
-    width: 60px;
-    height: 60px;
-    padding-top: 18px;
-    padding-left: 20px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
 }
 }
 .testimonials-text{
     padding-top: 35px;
     padding-bottom: 35px;
-    padding-left: 30px;
+    padding-left: 50px;
     padding-right: 30px;
     text-align: left;
 }
@@ -186,6 +180,8 @@ text-align: left;
 }
 @media (min-width: 768px){
 .kindwords-picture{
+    display: flex;
+    flex-shrink: inherit;
     object-fit: cover;
     border-radius: inherit;
     width: 100%;
