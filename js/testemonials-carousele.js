@@ -3,7 +3,7 @@
     const slides = [
         `<article class="testemonials-card-container">
         <div class="image-wrapper">
-            <img class="testemonials-icon" src="img/testemonials/green-line.webp" alt="Green-line">
+            <img class="testemonials-icon green-line" src="img/testemonials/green-line.webp" alt="Green-line">
         </div>
         </article>`,
         `<article class="testemonials-card-container">

@@ -16,6 +16,12 @@
     display: flex;
     flex-direction: column;
     background-color: rgba(121, 162, 7, 0.23);
+    width: 300px;
+    height: 250px;
+}
+
+.testemonials-icon {
+    padding-top: 25%;
 }
 
 .testemonial-carousel_list {
@@ -23,43 +29,54 @@
     flex-direction: row;
 }
 
-.testemonials-icon {
-    width: 100px;
-    height: 100px;
-}
 
 .testemonial_showforward {
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     border-top: 2px solid;
     border-right: 2px solid;
-    margin-right: 10px;
+    margin-right: -5px;
+    color: #faf5f2;
     transform: rotate(45deg);
 }
 
 .testemonial_showback {
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     border-top: 2px solid;
     border-right: 2px solid;
-    margin-right: 10px;
+    margin-right: -5px;
+    color: #faf5f2;
     transform: rotate(230deg);
 }
 
-.btn {
-    color: #faf5f2;
-}
-
-@media(min-width: 600px) {
-    .image-wrapper {
-        margin-left: 30px;
+@media(min-width: 500px) {
+    .testemonial-carousel {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-
-    .plant_showback{
-        position: absolute;
-        top: 172px;
-        left: 15px;
-        }
+    
+    .testemonials-card-container {
+        display: flex;
+    }
+    .image-wrapper {
+        background-color: rgba(121, 162, 7, 0.23);
+        width: 200px;
+        height: 150px;
+    }
+    
+    .testemonial-carousel_list {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .testemonials-card-container {
+        display: flex;
+        margin-right: 15px;
+        margin-left: 15px;
+    
+    }
     
 }
 
@@ -76,22 +93,22 @@
     display: flex;
 }
 .image-wrapper {
-    margin-left: 30px;
     background-color: rgba(121, 162, 7, 0.23);
+    width: 250px;
+    height: 200px;
 }
 
-.testemonials-icon {
-    width: 155px;
-    height: 85px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 35px;
-    margin-right: 35px;
-}
 
 .testemonial-carousel_list {
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
+
+.testemonials-card-container {
+    display: flex;
+    margin-right: 15px;
+    margin-left: 15px;
+
+}
+
 }
