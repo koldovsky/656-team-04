@@ -1,5 +1,4 @@
-.pick-of-the-month_wrapper {
-    background-color:seashell;
+.plants-months__wrapper {
     padding-top: 60px;
     padding-bottom: 90px;
     padding-left: 24px;
@@ -12,7 +11,6 @@
 
 @media (min-width: 700px) {
     .pick-of-the-month_wrapper {
-        background-color:seashell;
         padding-top: 60px;
         padding-bottom: 120px;
     }
@@ -20,4 +18,28 @@
     .pick-of-the-month__text {
         text-align: center;
     }
+}
+
+.tabs__button {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--main-subheading-btn-color);
+    margin-left: 10px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.tabs__button:hover {
+    color: var(--main-heading-color);
+}
+
+.tabs__sidebar {
+    text-align: center;
+}
+
+.plant-picture-wrapper {
+    width: 250px;
+    height: 250px;
+    margin: 0 10px;
+
 }
