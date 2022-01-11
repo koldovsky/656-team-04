@@ -17,7 +17,7 @@
 .ourplants_subheading {
     font-size: 18px;
     text-align: center;
-    margin-bottom: 70px;
+    margin-bottom: 55px;
 }
 .plants_location {
     display: flex;
@@ -29,12 +29,17 @@
     font-weight: bold;
     letter-spacing: 2.8px;
     color: var(--main-subheading-btn-color);
+    padding: 15px 25px;
 }
 .indoor_btm:hover, .outdoor_btm:hover, .selected {
     color: var(--main-heading-color);
 }
+.indoor_btm.selected, .outdoor_btm.selected {
+    border-bottom: 2px solid;
+    border-color: var(--main-subheading-btn-color);
+}
 .indoor_btm {
-    margin: 0px 40px 15px 30px;
+    margin: 0px 0px 0px 25px;
 }
 .line_nav {
     margin-left: 25px;
