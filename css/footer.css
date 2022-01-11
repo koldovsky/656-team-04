@@ -152,6 +152,10 @@
      min-width: 190px;
  }
  
+ .customer-form__submit:hover {
+     background-color: var(--main-heading-color)
+ }
+ 
  @media (min-width: 770px) {
      .contacts-and-form {
          display: grid;
