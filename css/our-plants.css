@@ -43,11 +43,15 @@
 }
 .line_nav {
     margin-left: 25px;
+    margin-right: 20px;
 }
 .line_nav_allscreen {
     height: 0px;
     background-color: grey;
     opacity: 0.2;
+}
+.plants_show {
+    margin-right: 20px;
 }
 .plants_show_card {
     margin-top: 30px;
