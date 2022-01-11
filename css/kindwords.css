@@ -2,8 +2,7 @@
     display: grid;
     position: relative;
     width: 100%;
-    min-width: 780px;
-    max-width: auto;
+    max-width: 780px;
     font-size: 17px;
     line-height: 1.5;
     font-family: Source Sans Pro,sans-serif;
@@ -17,6 +16,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 35px;
+        max-width: fit-content;
     }
 }
 .kindwords-inner{
@@ -147,6 +147,11 @@ text-align: left;
     text-align: left;
 }
 
+.kindwords-picture{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
 @media (min-width: 768px){
     .testimonials-text{
         margin-top: 30px;
